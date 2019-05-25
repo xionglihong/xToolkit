@@ -11,14 +11,14 @@
 
 from setuptools import setup, find_packages
 
-with open("xToolkit.egg-info/README.md", "r") as fh:
+with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setup(
     # pip项目发布的名称
     name="xToolkit",
     # 版本号
-    version="0.0.16",
+    version="0.0.17",
     # 模块的关键词，使用空格分割
     keywords=("xToolkit", "xtoolkit", "x", "tool", "toolkit"),
     # 项目的简单描述：
