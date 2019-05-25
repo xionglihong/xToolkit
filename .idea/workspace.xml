@@ -21,8 +21,8 @@
         <entry file="file://$PROJECT_DIR$/xToolkit.egg-info/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="497">
-                <caret line="83" column="18" lean-forward="true" selection-end-line="101" selection-end-column="13" />
+              <first_editor relative-caret-position="1404">
+                <caret line="78" column="34" lean-forward="true" selection-start-line="78" selection-start-column="34" selection-end-line="78" selection-end-column="34" />
               </first_editor>
               <second_editor />
             </state>
@@ -47,6 +47,9 @@
       <find>util</find>
       <find>type</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -73,12 +76,13 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="70" />
     <option name="y" value="52" />
     <option name="width" value="1360" />
     <option name="height" value="1028" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -275,12 +279,12 @@
       <workItem from="1558526372897" duration="8179000" />
       <workItem from="1558608861705" duration="1598000" />
       <workItem from="1558705509152" duration="1186000" />
-      <workItem from="1558777037017" duration="7773000" />
+      <workItem from="1558777037017" duration="8468000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="66947000" />
+    <option name="totallyTimeSpent" value="67642000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="70" y="0" width="1850" height="1080" extended-state="6" />
@@ -833,8 +837,8 @@
     <entry file="file://$PROJECT_DIR$/xToolkit.egg-info/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="497">
-            <caret line="83" column="18" lean-forward="true" selection-end-line="101" selection-end-column="13" />
+          <first_editor relative-caret-position="1404">
+            <caret line="78" column="34" lean-forward="true" selection-start-line="78" selection-start-column="34" selection-end-line="78" selection-end-column="34" />
           </first_editor>
           <second_editor />
         </state>
