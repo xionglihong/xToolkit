@@ -11,6 +11,10 @@
 
 from setuptools import setup, find_packages
 
+# 导入版本号
+from .xToolkit import __version__
+
+# 导入信息说明文档
 with open("README.md", "r") as fh:
     long_description = fh.read()
 
@@ -18,7 +22,7 @@ setup(
     # pip项目发布的名称
     name="xToolkit",
     # 版本号
-    version="0.0.17",
+    version=__version__,
     # 模块的关键词，使用空格分割
     keywords=("xToolkit", "xtoolkit", "x", "tool", "toolkit"),
     # 项目的简单描述：
@@ -31,7 +35,7 @@ setup(
     # 许可证
     license="MIT Licence",
     # 项目相关文件地址，一般是github
-    url="",
+    url="https://github.com/xionglihong/xToolkit",
     # 作者姓名
     author="xionglihong",
     # 作者邮箱

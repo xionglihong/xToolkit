@@ -8,12 +8,12 @@
 ##### 什么是xToolkit库？
 库xToolkit的中文名字叫Ｘ工具集．是python内置库的一个扩展库.把python的datetime,string,list,dist等数据结构重新进行了封装，扩展了部分功能．
 
-##### 操作文档
-操作文档还在编辑中，请等待
+##### 参考文档
+参考文档:https://www.showdoc.cc/xToolkit?page_id=2133295307421808
 
 ##### 实例：
 ##### 导入xToolkit库
-```python
+```
 from xToolkit import xdatetime
 ```
 ##### 判断时间格式时分正确
