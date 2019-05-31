@@ -1,8 +1,7 @@
 from xToolkit import xdatetime as xdt
+from xToolkit import xthreading
+from time import ctime,sleep
 import arrow
-
-
-arrow.Arrow
 
 if __name__ == "__main__":
     print("现在时间：{}".format(xdt.now()))
@@ -17,3 +16,33 @@ if __name__ == "__main__":
     print("下个月第一天和最后一天:{}".format(xdt.start_and_end(genre="Y", space=1)))
     print("上个月个月第一天和最后一天:{}".format(xdt.start_and_end(genre="Y", space=-1)))
     print("星期字典{}".format(xdt.get_week_dict(start="2019-05-01", end="2019-05-08")))
+
+
+    print('开始在：', ctime())
+
+
+    # 斐波那契
+    def fib(arguments):
+        sleep(2)
+        return "0"
+
+
+    # 阶乘
+    def fac(arguments):
+        sleep(3)
+        return "1"
+
+
+    # 累加
+    def sum(arguments):
+        sleep(3)
+        return "2"
+
+
+    funcs = [fib, fac, sum]
+    # 参数样式
+    arguments = {"fib": [1], "fac": [2], "sum": [3]}
+    a = xthreading.xthreading(funcs,arguments)
+
+    print(a)
+    print('结束于：', ctime())
