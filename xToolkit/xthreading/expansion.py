@@ -5,7 +5,7 @@
 @email:xionglihong@163.com
 @phone：15172383635
 @project: xToolkit
-@file: expansion.py
+@file: 多线程逻辑模块
 @time: 2019-05-31 下午3:07
 """
 

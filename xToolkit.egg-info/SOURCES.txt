@@ -10,3 +10,5 @@ xToolkit.egg-info/top_level.txt
 xToolkit/xdatetime/__init__.py
 xToolkit/xdatetime/expansion.py
 xToolkit/xdatetime/expansions.py
+xToolkit/xthreading/__init__.py
+xToolkit/xthreading/expansion.py
