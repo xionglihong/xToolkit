@@ -12,14 +12,14 @@
 from setuptools import setup, find_packages
 
 # 导入信息说明文档
-with open("README.md", "r") as fh:
+with open("README.md", "r", encoding="UTF-8") as fh:
     long_description = fh.read()
 
 setup(
     # pip项目发布的名称
     name="xToolkit",
     # 版本号
-    version="0.0.19",
+    version="0.0.20",
     # 模块的关键词，使用空格分割
     keywords=("xToolkit", "xtoolkit", "x", "tool", "toolkit"),
     # 项目的简单描述：

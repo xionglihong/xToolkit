@@ -111,6 +111,6 @@ arguments = {"fib": [1], "fac": [2], "sum": [3]}
 res = xthreading.xthreading(funcs,arguments)
 
 #res的返回值为[{'fib': '0'}, {'fac': '1'}, {'sum': '2'}]
-#从上面的三个函数看，里面分别停顿2,3,3秒，如果是单线程执行，耗时为８秒，用xthreading多线程实践耗时３秒
+#从上面的三个函数看，里面分别停顿2,3,3秒，如果是单线程执行，耗时为８秒，用xthreading多线程实现功能仅耗时３秒
 ```
 _更多实例请参照参考文档_

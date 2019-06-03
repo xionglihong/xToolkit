@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: xToolkit
-Version: 0.0.19
+Version: 0.0.20
 Summary: 此库从新封装了python下常用的数据类型，在内置模块的基础扩展了部分功能.
 Home-page: https://github.com/xionglihong/xToolkit
 Author: xionglihong
@@ -18,8 +18,26 @@ Description: 这个库是python内置库的一个扩展库.把python的datetime,
         ##### 什么是xToolkit库？
         库xToolkit的中文名字叫Ｘ工具集．是python内置库的一个扩展库.把python的datetime,string,list,dist等数据结构重新进行了封装，扩展了部分功能．
         
-        ##### 参考文档
-        参考文档:https://www.showdoc.cc/xToolkit?page_id=2133295307421808
+        ##### 操作文档
+        https://www.showdoc.cc/xToolkit?page_id=2133295307421808
+        
+        
+        ##### 更新说明：
+        2019年05年10日　V0.0.10 上线并新增获取当前时间功能
+        
+        2019年05年16日　V0.0.12 新增格式化时间format功能，更人性化的输出时间格式
+        
+        2019年05月18日　V0.0.15 新增推移时间功能
+        
+        2019年05月19日　V0.0.16 新增替换时间功能
+        
+        2019年05月25日　V0.0.17 新增判断时间格式是否正确功能
+        
+        2019年05月26日　V0.0.17 新增获取时间区间功能
+        
+        2019年05月27日　V0.0.17 新增获取时间区间内，星期字典功能
+        
+        2019年05月31日　V0.0.19 新增多线程模块，简化了线程创建，销毁等操作
         
         ##### 实例：
         ##### 导入xToolkit库
@@ -81,34 +99,30 @@ Description: 这个库是python内置库的一个扩展库.把python的datetime,
         xdatetime.get_week_dict(start="2019-05-01", end="2019-05-08")
         >>{'1': ['2019-05-06'], '2': ['2019-05-07'], '3': ['2019-05-01', '2019-05-08'], '4': ['2019-05-02'], '5': ['2019-05-03'], '6': ['2019-05-04'], '7': ['2019-05-05']}
         ```
-        **下面的资料为arrow库的资料,这里列出一些常用的方法**
-        ##### 获取当前时间
+        ##### 多线程带参数的案例：
         ```
-        #输出当前时间
-        xdatetime.now()
-        >>2019-05-21T21:48:25.873016+08:00
-        ```
-        ##### 获取时间协调时间
-        ```
-        #输出当前时间
-        xdatetime.utcnow()
-        >>2017-02-01T08:30:37.627622+00:00
-        ```
-        ###### 说明:通过utcnow()和now()可以分别获取了utc时间和local时间，获取了一个对象
+        #定义三个函数，用于测试
+        #每个函数各自停顿一段时间，表示运算耗时
+        def fib(arguments):
+        	sleep(2)
+        	return "0"
         
-        ##### 格式化当前时间
-        ```
-        #输出年月日时分秒格式时间
-        xdatetime.now().format("YYYY-MM-DD　HH:mm:ss")
-        >>2019-05-21 21:48:25
-        ```
-        ```
-        #输出年月格式日期时间
-        xdatetime.now().format("YYYY-MM-DD")
-        >>2019-05-21
-        ```
-        以此类推可以得到年,月,日,时,分,秒
+        def fac(arguments):
+        	sleep(3)
+        	return "1"
         
+        def sum(arguments):
+        	sleep(3)
+        	return "2"
+        
+        funcs = [fib, fac, sum]
+        # 参数样式
+        arguments = {"fib": [1], "fac": [2], "sum": [3]}
+        res = xthreading.xthreading(funcs,arguments)
+        
+        #res的返回值为[{'fib': '0'}, {'fac': '1'}, {'sum': '2'}]
+        #从上面的三个函数看，里面分别停顿2,3,3秒，如果是单线程执行，耗时为８秒，用xthreading多线程实现功能仅耗时３秒
+        ```
         _更多实例请参照参考文档_
 Keywords: xToolkit,xtoolkit,x,tool,toolkit
 Platform: any
