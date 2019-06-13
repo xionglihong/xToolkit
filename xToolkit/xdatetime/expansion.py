@@ -30,7 +30,7 @@ class XDateTime(object):
             return False
 
     @classmethod
-    def start_and_end(self, genre="M", space=0, *args, **kwargs):
+    def start_and_end(self, genre, space, *args, **kwargs):
         """
         计算指定时间段的第一天和最后一天
         genre:"M"代表月,"Y"代表年
@@ -61,7 +61,7 @@ class XDateTime(object):
             raise RuntimeError('genre is M or Y')
 
     @classmethod
-    def get_week_dict(self, start=arrow.now(), end=arrow.now(), *args, **kwargs):
+    def get_week_dict(self, start, end, *args, **kwargs):
         """
         start: 开始时间,时间格式为
         end: 结束时间
@@ -83,3 +83,22 @@ class XDateTime(object):
             week_dict[start.shift(days=key).format("d")].append(start.shift(days=key).format("YYYY-MM-DD"))
 
         return (week_dict)
+
+    @classmethod
+    def get_age_date(self, data, types, *args, **kwargs):
+        """
+        计算岁数,传入出生日期,返回年龄
+        """
+        # 出生日期
+        start = arrow.get(data)
+        # 当前日期
+        end = arrow.now()
+        # 计算年龄
+        age = end - start
+
+        # 返回年
+        if types == "years":
+            return (age.days // 365)
+        # 返回日
+        if types == "days":
+            return (age.days)

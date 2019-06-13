@@ -42,3 +42,13 @@ def get_week_dict(start=arrow.now(), end=arrow.now(), *args, **kwargs):
     返回值以星期为键,值为日期列表的字典
     """
     return XDateTime.get_week_dict(start=start, end=end, *args, **kwargs)
+
+
+# 获取年龄
+def get_age_date(data=arrow.now(), types="years", *args, **kwargs):
+    """
+    data :输入出生日期
+    types :返回类型（years返回年,days返回为日）
+    返回值：返回年龄
+    """
+    return XDateTime.get_age_date(data=data, types=types, *args, **kwargs)
