@@ -29,7 +29,7 @@ def start_and_end(genre="M", space=0, *args, **kwargs):
     返回值为列表
 
     默认返回值：
-    上一个月的第一天,和最后一天的列表,比如[2019-05-01,2019-05-31]
+    本月的第一天和最后一天的列表,比如[2019-05-01,2019-05-31]
     """
     return XDateTime.start_and_end(genre, space, *args, **kwargs)
 
