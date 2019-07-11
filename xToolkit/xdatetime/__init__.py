@@ -20,3 +20,5 @@ from .expansions import start_and_end
 from .expansions import get_week_dict
 # 返回年龄
 from .expansions import get_age_date
+# 返回日期段区间
+from .expansions import get_interval

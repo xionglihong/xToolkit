@@ -20,7 +20,7 @@ def shape(date, *args, **kwargs):
     return XDateTime.shape(date, *args, **kwargs)
 
 
-# 查询时间区间
+# 查询日期区间
 def start_and_end(genre="M", space=0, *args, **kwargs):
     """
     计算指定时间段的第一天和最后一天
@@ -37,7 +37,7 @@ def start_and_end(genre="M", space=0, *args, **kwargs):
 # 获取星期列表
 def get_week_dict(start=arrow.now(), end=arrow.now(), *args, **kwargs):
     """
-    start: 开始时间,时间格式为
+    start: 开始时间
     end: 结束时间
     返回值以星期为键,值为日期列表的字典
     """
@@ -52,3 +52,14 @@ def get_age_date(data=arrow.now(), types="years", *args, **kwargs):
     返回值：返回年龄
     """
     return XDateTime.get_age_date(data=data, types=types, *args, **kwargs)
+
+
+# 获取日期段区间
+def get_interval(start=arrow.now().format("YYYY-MM-DD"), end=arrow.now().format("YYYY-MM-DD"), *args, **kwargs):
+    """
+    输入开始日期，结束日期，返回区间内每个月的开始日期和结束日期
+    start: 开始时间
+    end: 结束时间
+    返回值为日期区间的列表,二维列表
+    """
+    return XDateTime.get_interval(start=start, end=end, *args, **kwargs)

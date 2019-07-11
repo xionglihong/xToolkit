@@ -82,7 +82,7 @@ class XDateTime(object):
         for key in range(section + 1):
             week_dict[start.shift(days=key).format("d")].append(start.shift(days=key).format("YYYY-MM-DD"))
 
-        return (week_dict)
+        return week_dict
 
     @classmethod
     def get_age_date(self, data, types, *args, **kwargs):
@@ -98,7 +98,30 @@ class XDateTime(object):
 
         # 返回年
         if types == "years":
-            return (age.days // 365)
+            return age.days // 365
         # 返回日
         if types == "days":
-            return (age.days)
+            return age.days
+
+    @classmethod
+    def get_interval(self, start, end, *args, **kwargs):
+        """
+        输入开始日期，结束日期，返回区间内每个月的开始日期和结束日期
+        """
+        # 如果开始日期小于结束日期，就对调开始与结束日期
+        if (arrow.get(start) - arrow.get(end)).days > 0:
+            start, end = end, start
+
+        # 计算有多少个月
+        month_date = (arrow.get(start).year - arrow.get(end).year) * 12 + (arrow.get(start).month - arrow.get(end).month)
+
+        result = []
+        for key in range(abs(month_date) + 1):
+            # 开始时间
+            starts = eval("""arrow.get("{}").shift(months={}).format("YYYY-MM-01")""".format(start, key))
+            # 结束时间
+            end = eval("""arrow.get("{}").shift(months=1).shift(days=-1).format("YYYY-MM-DD")""".format(starts))
+
+            result.append([starts, end])
+
+        return result
