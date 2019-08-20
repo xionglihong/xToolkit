@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: xToolkit
-Version: 0.0.23
+Version: 0.0.25
 Summary: 此库从新封装了python下常用的数据类型，在内置模块的基础扩展了部分功能.
 Home-page: https://github.com/xionglihong/xToolkit
 Author: xionglihong
@@ -42,6 +42,8 @@ Description: 这个库是python内置库的一个扩展库.把python的datetime,
         2019年06月11日　V0.0.21 新增计算人员岁数功能
         
         2019年06月23日　V0.0.22 修改获取开始时间，结束时间文档描述错误
+        
+        2019年07月13日　v0.0.23 新增获取日期区间开始时间，结束时间功能
         
         ##### 实例：
         ##### 导入xToolkit库

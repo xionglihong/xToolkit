@@ -2,8 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2ee7d59e-0f52-47cc-a065-12ecfe2afbd8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/xToolkit/xstring/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xToolkit/xstring/collect.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xToolkit/xstring/verification.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/setup.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xToolkit.egg-info/PKG-INFO" beforeDir="false" afterPath="$PROJECT_DIR$/xToolkit.egg-info/PKG-INFO" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xToolkit.egg-info/SOURCES.txt" beforeDir="false" afterPath="$PROJECT_DIR$/xToolkit.egg-info/SOURCES.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xToolkit.egg-info/dependency_links.txt" beforeDir="false" afterPath="$PROJECT_DIR$/xToolkit.egg-info/dependency_links.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xToolkit.egg-info/requires.txt" beforeDir="false" afterPath="$PROJECT_DIR$/xToolkit.egg-info/requires.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xToolkit.egg-info/top_level.txt" beforeDir="false" afterPath="$PROJECT_DIR$/xToolkit.egg-info/top_level.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,52 +29,6 @@
     <SUITE FILE_PATH="coverage/xToolkit$expansion.coverage" NAME="expansion Coverage Results" MODIFIED="1558534408369" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/xToolkit/xdatetime" />
     <SUITE FILE_PATH="coverage/xToolkit$setup.coverage" NAME="setup Coverage Results" MODIFIED="1558963602955" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/test$basics.coverage" NAME="basics Coverage Results" MODIFIED="1558141837023" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/xToolkit/xDatetime" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="19" column="79" selection-start-line="19" selection-start-column="43" selection-end-line="19" selection-end-column="79" />
-              <folding>
-                <element signature="e#0#37#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/xToolkit/xdatetime/expansions.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="604">
-              <caret line="57" column="16" selection-start-line="57" selection-start-column="4" selection-end-line="57" selection-end-column="16" />
-              <folding>
-                <element signature="e#172#184#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/xToolkit/xdatetime/expansion.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="529">
-              <caret line="110" column="33" lean-forward="true" selection-start-line="110" selection-start-column="10" selection-end-line="110" selection-end-column="33" />
-              <folding>
-                <element signature="n#!!doc" />
-                <element signature="e#40#170#1" />
-                <element signature="e#172#183#0" expanded="true" />
-                <element signature="e#228#252#1" />
-                <element signature="e#323#502#0" />
-                <element signature="e#323#380#1" />
-                <element signature="e#406#461#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -85,75 +50,21 @@
     </findStrings>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/xlhToolkit/dateApi.py" />
-        <option value="$PROJECT_DIR$/xToolkit/dateTimeApi/__init__.py" />
-        <option value="$PROJECT_DIR$/xToolkit/dateTimeApi/basics.py" />
-        <option value="$PROJECT_DIR$/xToolkit/xDatetime/api/arrow.py" />
-        <option value="$PROJECT_DIR$/xToolkit/xDatetime/basics.py" />
-        <option value="$PROJECT_DIR$/xToolkit/xDateTime/basics.py" />
-        <option value="$PROJECT_DIR$/xToolkit/globals/globals_xdatetime.py" />
-        <option value="$PROJECT_DIR$/xToolkit/xdatetime/arrow.py" />
-        <option value="$PROJECT_DIR$/xToolkit/setup.py" />
-        <option value="$PROJECT_DIR$/xToolkit.egg-info/dependency_links.txt" />
-        <option value="$PROJECT_DIR$/xToolkit/xdatetime/xdatetime.py" />
-        <option value="$PROJECT_DIR$/xToolkit.egg-info/README.md" />
-        <option value="$PROJECT_DIR$/xToolkit/xdatetime/foundation.py" />
-        <option value="$PROJECT_DIR$/xToolkit/xdatetime/basics.py" />
-        <option value="$PROJECT_DIR$/xToolkit/__init__.py" />
-        <option value="$PROJECT_DIR$/xToolkit/xthreading/expansion.py" />
-        <option value="$PROJECT_DIR$/xToolkit/xthreading/__init__.py" />
-        <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/xToolkit/xdatetime/__init__.py" />
-        <option value="$PROJECT_DIR$/xToolkit/xdatetime/expansions.py" />
-        <option value="$PROJECT_DIR$/xToolkit/xdatetime/expansion.py" />
-        <option value="$PROJECT_DIR$/setup.py" />
-        <option value="$PROJECT_DIR$/test.py" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="70" />
-    <option name="y" value="52" />
-    <option name="width" value="1360" />
-    <option name="height" value="1028" />
-  </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="xToolkit" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xToolkit" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xToolkit" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xToolkit" type="462c0819:PsiDirectoryNode" />
-              <item name="xToolkit" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xToolkit" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xToolkit" type="462c0819:PsiDirectoryNode" />
-              <item name="xToolkit" type="462c0819:PsiDirectoryNode" />
-              <item name="xdatetime" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
+  <component name="ProjectId" id="1PfVM222TJIcd5fJ2t8p9LS53jS" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ChangesTree.GroupingKeys" value="" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
@@ -163,7 +74,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -350,43 +261,38 @@
       <workItem from="1561292849268" duration="765000" />
       <workItem from="1562849350291" duration="4999000" />
       <workItem from="1562855916458" duration="589000" />
+      <workItem from="1566265086770" duration="1866000" />
+      <workItem from="1566269621542" duration="7160000" />
     </task>
+    <task id="LOCAL-00001" summary="测试文件发生了修改">
+      <created>1566265195556</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1566265195556</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
-  </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="95444000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="70" y="0" width="1850" height="1080" extended-state="6" />
-    <layout>
-      <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="1" side_tool="true" />
-      <window_info anchor="bottom" id="File Transfer" order="0" weight="0.22211055" />
-      <window_info anchor="bottom" id="Message" order="1" />
-      <window_info anchor="bottom" id="Find" order="2" weight="0.32964823" />
-      <window_info anchor="bottom" id="Run" order="3" weight="0.32964823" />
-      <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="7" weight="0.32964823" />
-      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="12" weight="0.44221106" />
-      <window_info anchor="bottom" id="Python Console" order="13" weight="0.32964823" />
-      <window_info anchor="bottom" id="SciView" order="14" weight="0.3286432" />
-      <window_info anchor="bottom" id="Database Console" order="15" weight="0.3949749" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info active="true" anchor="right" content_ui="combo" id="Project" order="3" visible="true" weight="0.21309656" />
-      <window_info anchor="right" id="Remote Host" order="4" weight="0.14206438" />
-      <window_info anchor="right" id="Database" order="5" weight="0.18947369" />
-    </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="测试文件发生了修改" />
+    <option name="LAST_COMMIT_MESSAGE" value="测试文件发生了修改" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -399,387 +305,7 @@
       </default-breakpoints>
     </breakpoint-manager>
   </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/.PyCharm2018.3/system/python_stubs/-2066100795/time.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="343" column="6" selection-start-line="343" selection-start-column="6" selection-end-line="343" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xlhToolkit/dateApi.py" />
-    <entry file="file:///usr/lib/python3/dist-packages/dateutil/tz/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#24#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xToolkit/xDatetime/api/__init__.py" />
-    <entry file="file://$PROJECT_DIR$/xToolkit/xDatetime/api/arrow.py" />
-    <entry file="file://$PROJECT_DIR$/xToolkit/xDateTime/arrow/__init__.py" />
-    <entry file="file://$PROJECT_DIR$/xToolkit/xDateTime/arrow/arrow.py" />
-    <entry file="file://$PROJECT_DIR$/xToolkit/globals/globals_xdatetime.py" />
-    <entry file="file://$PROJECT_DIR$/arrow/factory.py" />
-    <entry file="file://$PROJECT_DIR$/arrow/api.py" />
-    <entry file="file://$PROJECT_DIR$/arrow/__init__.py" />
-    <entry file="file://$PROJECT_DIR$/xToolkit/xdatetime/factory.py" />
-    <entry file="file://$PROJECT_DIR$/arrow/arrow.py" />
-    <entry file="file:///usr/lib/python3/dist-packages/setuptools/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="122" selection-start-line="122" selection-end-line="122" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/lib/python3.7/__future__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2142">
-          <caret line="119" selection-start-line="119" selection-end-line="119" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xToolkit/xdatetime/api.py" />
-    <entry file="file:///usr/lib/python3/dist-packages/dateutil/_version.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/lib/python3/dist-packages/dateutil/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="29" lean-forward="true" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xToolkit/xdatetime/arrow.py" />
-    <entry file="file://$PROJECT_DIR$/xToolkit.egg-info/top_level.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="8" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xToolkit.egg-info/SOURCES.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xToolkit.egg-info/PKG-INFO">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" column="41" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xToolkit.egg-info/requires.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xToolkit.egg-info/dependency_links.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/2and3/time.pyi">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="30" lean-forward="true" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
-          <folding>
-            <element signature="e#90#100#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/2and3/math.pyi">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xToolkit/xdatetime/xdatetime.py" />
-    <entry file="file://$USER_HOME$/.local/lib/python3.7/site-packages/arrow/parser.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5303">
-          <folding>
-            <element signature="e#24#62#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xToolkit.egg-info/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.local/lib/python3.7/site-packages/arrow/util.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="24" column="14" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="14" />
-          <folding>
-            <element signature="e#24#62#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xToolkit/xdatetime/basics.py" />
-    <entry file="file://$USER_HOME$/.local/lib/python3.7/site-packages/arrow/factory.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="26" column="7" lean-forward="true" selection-start-line="26" selection-start-column="7" selection-end-line="26" selection-end-column="7" />
-          <folding>
-            <element signature="e#203#241#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xToolkit/xdatetime/foundation.py" />
-    <entry file="file://$USER_HOME$/.local/lib/python3.7/site-packages/arrow/api.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
-          <folding>
-            <element signature="e#157#195#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.local/lib/python3.7/site-packages/arrow/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" selection-start-line="6" selection-end-line="7" selection-end-column="21" />
-          <folding>
-            <element signature="e#25#49#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.local/lib/python3.7/site-packages/arrow/arrow.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="404">
-          <caret line="169" column="75" selection-start-line="169" selection-start-column="69" selection-end-line="169" selection-end-column="75" />
-          <folding>
-            <element signature="e#24#125#1" />
-            <element signature="e#127#165#0" expanded="true" />
-            <element signature="e#2183#2722#0" />
-            <element signature="e#2183#2497#1" />
-            <element signature="e#2770#2987#1" />
-            <element signature="e#3231#4060#0" />
-            <element signature="e#3231#3753#1" />
-            <element signature="e#4129#4570#0" />
-            <element signature="e#4129#4331#1" />
-            <element signature="e#4641#5223#1" />
-            <element signature="e#5264#5383#0" />
-            <element signature="e#5566#5990#0" />
-            <element signature="e#5566#5850#1" />
-            <element signature="e#6068#6894#0" />
-            <element signature="e#6068#6665#1" />
-            <element signature="e#7022#9876#0" />
-            <element signature="e#7022#9241#1" />
-            <element signature="e#9678#9876#0" />
-            <element signature="e#9969#12479#0" />
-            <element signature="e#9969#12242#1" />
-            <element signature="e#12569#14604#0" />
-            <element signature="e#12569#14158#1" />
-            <element signature="e#14351#14604#0" />
-            <element signature="e#14372#14547#0" />
-            <element signature="e#14661#14727#0" />
-            <element signature="e#14760#14793#0" />
-            <element signature="e#14841#14931#0" />
-            <element signature="e#14965#14997#0" />
-            <element signature="e#15073#15441#0" />
-            <element signature="e#15282#15389#0" />
-            <element signature="e#15487#15711#0" />
-            <element signature="e#15487#15673#1" />
-            <element signature="e#15770#15911#0" />
-            <element signature="e#15959#16251#0" />
-            <element signature="e#15959#16220#1" />
-            <element signature="e#16296#16706#0" />
-            <element signature="e#16296#16654#1" />
-            <element signature="e#16755#17022#0" />
-            <element signature="e#16755#16959#1" />
-            <element signature="e#17077#17366#0" />
-            <element signature="e#17077#17299#1" />
-            <element signature="e#17431#17674#0" />
-            <element signature="e#17431#17624#1" />
-            <element signature="e#17717#19758#0" />
-            <element signature="e#17717#18370#1" />
-            <element signature="e#18530#19193#0" />
-            <element signature="e#18690#18950#0" />
-            <element signature="e#18739#18854#0" />
-            <element signature="e#19629#19715#0" />
-            <element signature="e#19799#20834#1" />
-            <element signature="e#21459#22484#0" />
-            <element signature="e#21459#22225#1" />
-            <element signature="e#22530#24398#0" />
-            <element signature="e#22530#23486#1" />
-            <element signature="e#24436#24985#0" />
-            <element signature="e#24436#24949#1" />
-            <element signature="e#25022#25580#0" />
-            <element signature="e#25022#25544#1" />
-            <element signature="e#25695#26318#0" />
-            <element signature="e#25695#26238#1" />
-            <element signature="e#26422#30935#0" />
-            <element signature="e#26422#27310#1" />
-            <element signature="e#27395#27509#0" />
-            <element signature="e#27638#27806#0" />
-            <element signature="e#28044#29874#0" />
-            <element signature="e#28176#28286#0" />
-            <element signature="e#28446#28574#0" />
-            <element signature="e#28735#28859#0" />
-            <element signature="e#29023#29145#0" />
-            <element signature="e#29313#29594#0" />
-            <element signature="e#29746#29874#0" />
-            <element signature="e#29902#30935#0" />
-            <element signature="e#29946#30081#0" />
-            <element signature="e#30596#30775#0" />
-            <element signature="e#30617#30774#0" />
-            <element signature="e#30987#31151#0" />
-            <element signature="e#31192#31218#0" />
-            <element signature="e#31259#31600#0" />
-            <element signature="e#31642#31746#0" />
-            <element signature="e#31806#31935#0" />
-            <element signature="e#31975#32082#0" />
-            <element signature="e#32122#32259#0" />
-            <element signature="e#32299#32437#0" />
-            <element signature="e#32477#32614#0" />
-            <element signature="e#32654#32792#0" />
-            <element signature="e#32832#33055#0" />
-            <element signature="e#32891#33055#0" />
-            <element signature="e#32952#33055#0" />
-            <element signature="e#33111#33321#0" />
-            <element signature="e#33111#33283#1" />
-            <element signature="e#33351#33581#0" />
-            <element signature="e#33351#33543#1" />
-            <element signature="e#33613#33882#0" />
-            <element signature="e#33613#33842#1" />
-            <element signature="e#33922#34374#0" />
-            <element signature="e#33922#34328#1" />
-            <element signature="e#34409#34686#0" />
-            <element signature="e#34409#34643#1" />
-            <element signature="e#34715#34903#0" />
-            <element signature="e#34715#34866#1" />
-            <element signature="e#34938#35248#0" />
-            <element signature="e#34938#35205#1" />
-            <element signature="e#35286#35590#0" />
-            <element signature="e#35286#35544#1" />
-            <element signature="e#35625#35817#0" />
-            <element signature="e#35625#35774#1" />
-            <element signature="e#35850#36029#0" />
-            <element signature="e#35850#35988#1" />
-            <element signature="e#36065#36254#0" />
-            <element signature="e#36065#36210#1" />
-            <element signature="e#36291#36501#0" />
-            <element signature="e#36291#36456#1" />
-            <element signature="e#36545#36781#0" />
-            <element signature="e#36545#36735#1" />
-            <element signature="e#36812#37026#0" />
-            <element signature="e#36812#36987#1" />
-            <element signature="e#37068#37335#0" />
-            <element signature="e#37068#37287#1" />
-            <element signature="e#37369#37580#0" />
-            <element signature="e#37369#37547#1" />
-            <element signature="e#37662#38024#0" />
-            <element signature="e#37814#38024#0" />
-            <element signature="e#37932#38024#0" />
-            <element signature="e#38086#38437#0" />
-            <element signature="e#38237#38310#0" />
-            <element signature="e#38339#38437#0" />
-            <element signature="e#38497#38939#0" />
-            <element signature="e#39015#39286#0" />
-            <element signature="e#39044#39171#0" />
-            <element signature="e#39199#39286#0" />
-            <element signature="e#39361#39502#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xToolkit/xthreading/expansion.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xToolkit/xthreading/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-727">
-            <caret line="33" column="39" selection-start-line="33" selection-start-column="39" selection-end-line="33" selection-end-column="39" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xToolkit/xdatetime/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="23" column="36" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="36" />
-          <folding>
-            <element signature="e#174#203#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xToolkit/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/setup.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="313">
-          <caret line="21" column="19" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="19" column="79" selection-start-line="19" selection-start-column="43" selection-end-line="19" selection-end-column="79" />
-          <folding>
-            <element signature="e#0#37#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xToolkit/xdatetime/expansions.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="604">
-          <caret line="57" column="16" selection-start-line="57" selection-start-column="4" selection-end-line="57" selection-end-column="16" />
-          <folding>
-            <element signature="e#172#184#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xToolkit/xdatetime/expansion.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="110" column="33" lean-forward="true" selection-start-line="110" selection-start-column="10" selection-end-line="110" selection-end-column="33" />
-          <folding>
-            <element signature="n#!!doc" />
-            <element signature="e#40#170#1" />
-            <element signature="e#172#183#0" expanded="true" />
-            <element signature="e#228#252#1" />
-            <element signature="e#323#502#0" />
-            <element signature="e#323#380#1" />
-            <element signature="e#406#461#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/xToolkit$test.coverage" NAME="test Coverage Results" MODIFIED="1566282270015" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
