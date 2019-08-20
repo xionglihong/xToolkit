@@ -17,5 +17,5 @@ if __name__ == "__main__":
     # print("下个月第一天和最后一天:{}".format(xdt.start_and_end(genre="Y", space=1)))
     # print("上个月个月第一天和最后一天:{}".format(xdt.start_and_end(genre="Y", space=-1)))
     # print("星期字典{}".format(xdt.get_week_dict(start="2019-05-01", end="2019-05-08")))
-    print("时间区间{}".format(xdt.get_interval(start="2019-06-01", end="2019-04-08")))
+    # print("时间区间{}".format(xdt.get_interval(start="2019-06-01", end="2019-04-08")))
 
