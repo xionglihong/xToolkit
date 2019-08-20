@@ -4,6 +4,7 @@ from time import ctime, sleep
 import arrow
 
 if __name__ == "__main__":
+    pass
 
     # print("现在时间：{}".format(xdt.now()))
     # print("格式化现在时间：{}".format(xdt.now().format("YYYY-MM-DD HH:mm:ss")))
