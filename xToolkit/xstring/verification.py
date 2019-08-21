@@ -565,23 +565,23 @@ class DataProofreading(object):
 
         # 判断长度
         if len(strings) != 18:
-            return {"code": "0001", "mas": "身份证长度不合规，长度应该为18位"}
+            return {"code": "0001", "result": False, "msg": "身份证长度不合规，长度应该为18位"}
 
         # 判断格式是否为17位+以为效验
         if not re.match(r"^\d{17}(\d|X|x)$", strings):
-            return {"code": "0002", "mas": "身份证格式不合格"}
+            return {"code": "0002", "result": False, "msg": "身份证格式不合格"}
 
         # 判断前六位是否对应市县
         if strings[0:6] not in area_dict:
-            return {"code": "0003", "mas": "身份证前六位无对应地区"}
+            return {"code": "0003", "result": False, "msg": "身份证前六位无对应地区"}
         try:
             datetime.date(int(strings[6:10]), int(strings[10:12]), int(strings[12:14]))
         except ValueError as ve:
-            return {"code": "0004", "mas": "身份证生日部分不合格"}
+            return {"code": "0004", "result": False, "msg": "身份证生日部分不合格"}
 
         # 进行效验码判断
         if str(check_code_list[sum([a * b for a, b in zip(id_code_list, [int(a) for a in strings[0:-1]])]) % 11]) != str(strings.upper()[-1]):
-            return {"code": "0005", "mas": "身份证号码不合格，校验码判断失败"}
+            return {"code": "0005", "result": False, "msg": "身份证号码不合格，校验码判断失败"}
 
         return {"code": "0000",
                 "result": True,
@@ -596,7 +596,24 @@ class DataProofreading(object):
         # 电信：133、153、170、173、177、180、181、189、（1349卫通）
         # 总结起来就是第一位必定为1，第二位必定为3或5或8，其他位置的可以为0 - 9
         # 使用正则表达式 ^1[3|5|7|8|][0-9]{9}$
-        if len(strings) == 11 and re.findall("^1[3|5|7|8|][0-9]{9}$", strings):
+        if re.findall("^1[3|5|7|8|][0-9]{9}$", strings):
             return True
         else:
             return False
+
+    # 数字效验
+    def figure(self, strings, mold=1):
+        """
+        Python 中已经有效验整数的方法 isdigit，只能效验整数
+        此方法新增其他的一些数字效验
+        mole的值为：
+        1.代表 正浮点型或者正整形
+        """
+        # 正浮点型或者正整形
+        if mold == 1:
+            if re.findall('(^[1-9]\d*.\d*$)|(^0.\d*[1-9]\d*$)', strings) or strings.isdigit():
+                return True
+            else:
+                return False
+        else:
+            return {"code": "0000", "msg": "mole 类型错误"}

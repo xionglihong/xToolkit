@@ -30,3 +30,14 @@ def cellphone(strings):
     使用正则表达式 ^1[3|5|7|8|][0-9]{9}$
     """
     return DataProofreading().cellphone(strings)
+
+
+# 效验数字
+def figure(strings, mold=1):
+    """
+    Python 中已经有效验整数的方法 isdigit，只能效验整数
+    此方法新增其他的一些数字效验
+    mole的值为：
+    1.代表 正浮点型或者正整形
+    """
+    return DataProofreading().figure(strings, mold)

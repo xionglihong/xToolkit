@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2ee7d59e-0f52-47cc-a065-12ecfe2afbd8" name="Default Changelist" comment="">
+    <list default="true" id="2ee7d59e-0f52-47cc-a065-12ecfe2afbd8" name="Default Changelist" comment="修改说明文档编排错误">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/setup.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xToolkit.egg-info/PKG-INFO" beforeDir="false" afterPath="$PROJECT_DIR$/xToolkit.egg-info/PKG-INFO" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xToolkit.egg-info/SOURCES.txt" beforeDir="false" afterPath="$PROJECT_DIR$/xToolkit.egg-info/SOURCES.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xToolkit/xstring/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/xToolkit/xstring/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xToolkit/xstring/collect.py" beforeDir="false" afterPath="$PROJECT_DIR$/xToolkit/xstring/collect.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xToolkit/xstring/verification.py" beforeDir="false" afterPath="$PROJECT_DIR$/xToolkit/xstring/verification.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -66,7 +67,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -255,7 +256,11 @@
       <workItem from="1562855916458" duration="589000" />
       <workItem from="1566265086770" duration="1866000" />
       <workItem from="1566269621542" duration="7378000" />
-      <workItem from="1566283450868" duration="323000" />
+      <workItem from="1566283450868" duration="382000" />
+      <workItem from="1566290562604" duration="288000" />
+      <workItem from="1566290867965" duration="8000" />
+      <workItem from="1566291384421" duration="4393000" />
+      <workItem from="1566350607195" duration="1563000" />
     </task>
     <task id="LOCAL-00001" summary="测试文件发生了修改">
       <created>1566265195556</created>
@@ -271,7 +276,14 @@
       <option name="project" value="LOCAL" />
       <updated>1566283299970</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="修改说明文档编排错误">
+      <created>1566283813233</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1566283813233</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -330,6 +342,31 @@
             </State>
           </value>
         </entry>
+        <entry key="3">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="roots">
+                    <value>
+                      <list>
+                        <option value="$PROJECT_DIR$" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
         <entry key="MAIN">
           <value>
             <State>
@@ -339,17 +376,12 @@
         </entry>
       </map>
     </option>
-    <option name="OPEN_TABS">
-      <set>
-        <option value="1" />
-        <option value="2" />
-      </set>
-    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="测试文件发生了修改" />
     <MESSAGE value="新增身份证效验和手机号效验功能" />
-    <option name="LAST_COMMIT_MESSAGE" value="新增身份证效验和手机号效验功能" />
+    <MESSAGE value="修改说明文档编排错误" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改说明文档编排错误" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -363,6 +395,6 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/xToolkit$test.coverage" NAME="test Coverage Results" MODIFIED="1566282270015" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/xToolkit$test.coverage" NAME="test Coverage Results" MODIFIED="1566352158304" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

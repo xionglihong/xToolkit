@@ -6,7 +6,7 @@ import arrow
 
 if __name__ == "__main__":
     pass
-    # res = xstring.cellphone("15172383635")
+    # res = xstring.figure("00.55")
     # print(res)
     # print("现在时间：{}".format(xdt.now()))
     # print("格式化现在时间：{}".format(xdt.now().format("YYYY-MM-DD HH:mm:ss")))
