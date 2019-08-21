@@ -19,7 +19,7 @@ setup(
     # pip项目发布的名称
     name="xToolkit",
     # 版本号
-    version="0.0.26",
+    version="0.0.27",
     # 模块的关键词，使用空格分割
     keywords=("xToolkit", "xtoolkit", "x", "tool", "toolkit"),
     # 项目的简单描述：

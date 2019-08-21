@@ -571,9 +571,7 @@ class DataProofreading(object):
         if not re.match(r"^\d{17}(\d|X|x)$", strings):
             return {"code": "0002", "result": False, "msg": "身份证格式不合格"}
 
-        # 判断前六位是否对应市县
-        if strings[0:6] not in area_dict:
-            return {"code": "0003", "result": False, "msg": "身份证前六位无对应地区"}
+        # 判断生日部分
         try:
             datetime.date(int(strings[6:10]), int(strings[10:12]), int(strings[12:14]))
         except ValueError as ve:
@@ -586,7 +584,10 @@ class DataProofreading(object):
         return {"code": "0000",
                 "result": True,
                 "birthday": "{}-{}-{}".format(strings[6:10], strings[10:12], strings[12:14]),  # 生日
-                "place": "{}省 {}市 {}".format(area_dict[strings[0:2] + "0000"].rstrip("省"), area_dict[strings[0:4] + "00"].rstrip("市"), area_dict[strings[0:6]]),  # 省市
+                "gender": "男" if int(strings[-2]) % 2 == 1 else "女",  # 性别
+                "place": "{}省 {}市 {}".format(area_dict.get(strings[0:2] + "0000").rstrip("省"),
+                                             area_dict.get(strings[0:4] + "00", "省直辖行政单位").rstrip("市"),
+                                             area_dict.get(strings[0:6], "部分区域")),  # 省市
                 }
 
     # 手机号码效验
