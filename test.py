@@ -6,8 +6,8 @@ import arrow
 
 if __name__ == "__main__":
     pass
-    res = xstring.identity("440682199106176312")
-    print(res)
+    # res = xstring.characters("熊利宏")
+    # print(res)
     # print("现在时间：{}".format(xdt.now()))
     # print("格式化现在时间：{}".format(xdt.now().format("YYYY-MM-DD HH:mm:ss")))
     # print("验证格式 1988-07-20 是否错误,返回值{}".format(xdt.shape("1988-07-20")))

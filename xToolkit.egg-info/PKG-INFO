@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: xToolkit
-Version: 0.0.27
+Version: 0.0.28
 Summary: 此库从新封装了python下常用的数据类型，在内置模块的基础扩展了部分功能.
 Home-page: https://github.com/xionglihong/xToolkit
 Author: xionglihong
@@ -52,6 +52,8 @@ Description: 这个库是python内置库的一个扩展库.把python的datetime,
         2019年08月21日　v0.0.26 新增中国大陆手机号码效验功能
         
         2019年08月22日　v0.0.27 新增数字效验功能
+        
+        2019年08月22日　v0.0.28 新增身份证验证输出性别，修改身份证验证如果地区无对应关系报错的BUG.
         
         ##### 实例：
         ##### 导入xToolkit库

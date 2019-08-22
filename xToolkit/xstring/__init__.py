@@ -15,3 +15,6 @@ from xToolkit.xstring.collect import cellphone
 
 # 数字效验
 from xToolkit.xstring.collect import figure
+
+# 效验中文
+from xToolkit.xstring.collect import characters

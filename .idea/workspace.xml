@@ -2,14 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2ee7d59e-0f52-47cc-a065-12ecfe2afbd8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/Administrator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xToolkit/xstring/xstring_data.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/setup.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/xToolkit.egg-info/PKG-INFO" beforeDir="false" afterPath="$PROJECT_DIR$/xToolkit.egg-info/PKG-INFO" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xToolkit/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/xToolkit/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xToolkit/xstring/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/xToolkit/xstring/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xToolkit/xstring/collect.py" beforeDir="false" afterPath="$PROJECT_DIR$/xToolkit/xstring/collect.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/xToolkit/xstring/verification.py" beforeDir="false" afterPath="$PROJECT_DIR$/xToolkit/xstring/verification.py" afterDir="false" />
+    </list>
+    <list id="d9251737-cd34-4d75-9638-917c8f8a6de4" name="Revert &quot;新增身份证验证输出性别&quot;" comment="Revert &quot;新增身份证验证输出性别&quot;&#10;&#10;This reverts commit cf6a82e0">
+      <change beforePath="$PROJECT_DIR$/build/lib/xToolkit/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/lib/xToolkit/xdatetime/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/lib/xToolkit/xdatetime/expansion.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/lib/xToolkit/xdatetime/expansions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/lib/xToolkit/xthreading/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/lib/xToolkit/xthreading/expansion.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/xToolkit-0.0.24.tar.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/xToolkit-0.0.25.tar.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/xToolkit-0.0.26.tar.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/xToolkit-0.0.27.tar.gz" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -252,7 +266,8 @@
       <workItem from="1566291384421" duration="4393000" />
       <workItem from="1566350607195" duration="2158000" />
       <workItem from="1566355531722" duration="347000" />
-      <workItem from="1566373258766" duration="3448000" />
+      <workItem from="1566373258766" duration="4783000" />
+      <workItem from="1566477530858" duration="4921000" />
     </task>
     <task id="LOCAL-00001" summary="测试文件发生了修改">
       <created>1566265195556</created>
@@ -282,7 +297,21 @@
       <option name="project" value="LOCAL" />
       <updated>1566352230095</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="新增身份证验证输出性别，&#10;修改身份证验证如果地区无对应关系报错的BUG">
+      <created>1566376835769</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1566376835769</updated>
+    </task>
+    <task id="LOCAL-00006" summary="新增身份证验证输出性别">
+      <created>1566376953622</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1566376953622</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -366,6 +395,55 @@
             </State>
           </value>
         </entry>
+        <entry key="4">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="roots">
+                    <value>
+                      <list>
+                        <option value="$PROJECT_DIR$" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+        <entry key="5">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="roots">
+                    <value>
+                      <list>
+                        <option value="$PROJECT_DIR$" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
         <entry key="MAIN">
           <value>
             <State>
@@ -379,6 +457,9 @@
       <set>
         <option value="1" />
         <option value="2" />
+        <option value="3" />
+        <option value="4" />
+        <option value="5" />
       </set>
     </option>
   </component>
@@ -387,7 +468,9 @@
     <MESSAGE value="新增身份证效验和手机号效验功能" />
     <MESSAGE value="修改说明文档编排错误" />
     <MESSAGE value="新增浮点型数字效验" />
-    <option name="LAST_COMMIT_MESSAGE" value="新增浮点型数字效验" />
+    <MESSAGE value="新增身份证验证输出性别，&#10;修改身份证验证如果地区无对应关系报错的BUG" />
+    <MESSAGE value="新增身份证验证输出性别" />
+    <option name="LAST_COMMIT_MESSAGE" value="新增身份证验证输出性别" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -401,6 +484,6 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/xToolkit$test.coverage" NAME="test Coverage Results" MODIFIED="1566376488964" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/xToolkit$test.coverage" NAME="test Coverage Results" MODIFIED="1566483127040" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

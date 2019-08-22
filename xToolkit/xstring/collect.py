@@ -38,6 +38,17 @@ def figure(strings, mold=1):
     Python 中已经有效验整数的方法 isdigit，只能效验整数
     此方法新增其他的一些数字效验
     mole的值为：
-    1.代表 正浮点型或者正整形
+    1.代表 浮点型或者整形(正负都可以)
+    2.代表 浮点型(正负都可以)
     """
     return DataProofreading().figure(strings, mold)
+
+
+# 效验中文
+def characters(strings, mold=1):
+    """
+    进行汉字效验
+    mole的值为：
+    1.代表 只含中文
+    """
+    return DataProofreading().characters(strings, mold)
