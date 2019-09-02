@@ -7,14 +7,5 @@
 # @File    : __init__.py.py
 # @IDE     : PyCharm
 
-# 身份证效验
-from xToolkit.xstring.collect import identity
-
-# 手机号效验
-from xToolkit.xstring.collect import cellphone
-
-# 数字效验
-from xToolkit.xstring.collect import figure
-
-# 效验中文
-from xToolkit.xstring.collect import characters
+# 数据效验
+from xToolkit.xstring.collect import verified

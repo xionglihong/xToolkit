@@ -13,5 +13,6 @@ xToolkit/xdatetime/expansions.py
 xToolkit/xstring/__init__.py
 xToolkit/xstring/collect.py
 xToolkit/xstring/verification.py
+xToolkit/xstring/xstring_data.py
 xToolkit/xthreading/__init__.py
 xToolkit/xthreading/expansion.py

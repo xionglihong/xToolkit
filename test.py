@@ -6,7 +6,7 @@ import arrow
 
 if __name__ == "__main__":
     pass
-    # res = xstring.characters("熊利宏")
+    # res = xstring.verified("545400000000000", dtype="bank")
     # print(res)
     # print("现在时间：{}".format(xdt.now()))
     # print("格式化现在时间：{}".format(xdt.now().format("YYYY-MM-DD HH:mm:ss")))

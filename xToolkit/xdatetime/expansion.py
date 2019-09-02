@@ -125,3 +125,20 @@ class XDateTime(object):
             result.append([starts, end])
 
         return result
+
+    @classmethod
+    def judge_time_range(cls, section, dot, *args, **kwargs):
+        """
+        判断时间是否在时间区间中
+        section 是一个列表对象，列表中为二个值，第一个为区间开始时间，第二个区间结束时间，格式都为年月日时分秒
+        dot 为一个时间点 时间格式为年月日时分秒
+        此方法用来判断dot是否在section区间中
+        """
+        # 获取验证时间点
+        dots = time.mktime(time.strptime(dot, "%Y-%m-%d %H:%M:%S"))
+
+        # 计算是否在时间区间中
+        if dots - time.mktime(time.strptime(section[0], "%Y-%m-%d %H:%M:%S")) >= 0 and time.mktime(time.strptime(section[1], "%Y-%m-%d %H:%M:%S")) - dots >= 0:
+            return True
+        else:
+            return False

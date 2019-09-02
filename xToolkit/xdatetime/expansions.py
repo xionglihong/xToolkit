@@ -63,3 +63,16 @@ def get_interval(start=arrow.now().format("YYYY-MM-DD"), end=arrow.now().format(
     返回值为日期区间的列表,二维列表
     """
     return XDateTime.get_interval(start=start, end=end, *args, **kwargs)
+
+
+# 判断时间是否在区间中
+def judge_time_range(section=['1971-01-01 00:00:00', '2038-12-31 23:59:59'], dot="2039-08-30 00:00:00", *args, **kwargs):
+    """
+    判断时间是否在时间区间中
+    section 是一个列表对象，列表中为二个值，第一个为区间开始时间，第二个区间结束时间，格式都为年月日时分秒
+    dot 为一个时间点 时间格式为年月日时分秒
+    此方法用来判断dot是否在section区间中
+
+    时间格式：2019-09-02 21:32:55
+    """
+    return XDateTime.judge_time_range(section=section, dot=dot, *args, **kwargs)

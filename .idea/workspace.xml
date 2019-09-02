@@ -2,13 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2ee7d59e-0f52-47cc-a065-12ecfe2afbd8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/Administrator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xToolkit/xstring/xstring_data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/xToolkit-0.0.28.tar.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/xToolkit-0.0.29.tar.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/编写计划.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/Administrator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/Administrator.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/setup.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/xToolkit.egg-info/PKG-INFO" beforeDir="false" afterPath="$PROJECT_DIR$/xToolkit.egg-info/PKG-INFO" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xToolkit.egg-info/SOURCES.txt" beforeDir="false" afterPath="$PROJECT_DIR$/xToolkit.egg-info/SOURCES.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xToolkit/xdatetime/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/xToolkit/xdatetime/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xToolkit/xdatetime/expansion.py" beforeDir="false" afterPath="$PROJECT_DIR$/xToolkit/xdatetime/expansion.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xToolkit/xdatetime/expansions.py" beforeDir="false" afterPath="$PROJECT_DIR$/xToolkit/xdatetime/expansions.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/xToolkit/xstring/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/xToolkit/xstring/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/xToolkit/xstring/collect.py" beforeDir="false" afterPath="$PROJECT_DIR$/xToolkit/xstring/collect.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/xToolkit/xstring/verification.py" beforeDir="false" afterPath="$PROJECT_DIR$/xToolkit/xstring/verification.py" afterDir="false" />
@@ -23,7 +29,7 @@
       <change beforePath="$PROJECT_DIR$/dist/xToolkit-0.0.24.tar.gz" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/xToolkit-0.0.25.tar.gz" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/xToolkit-0.0.26.tar.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/xToolkit-0.0.27.tar.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/xToolkit-0.0.27.tar.gz" beforeDir="false" afterPath="$PROJECT_DIR$/dist/xToolkit-0.0.27.tar.gz" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -68,7 +74,7 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../WanBaoScience" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
@@ -267,7 +273,16 @@
       <workItem from="1566350607195" duration="2158000" />
       <workItem from="1566355531722" duration="347000" />
       <workItem from="1566373258766" duration="4783000" />
-      <workItem from="1566477530858" duration="4921000" />
+      <workItem from="1566477530858" duration="5247000" />
+      <workItem from="1566484537437" duration="82000" />
+      <workItem from="1566484687833" duration="673000" />
+      <workItem from="1566485463942" duration="43000" />
+      <workItem from="1566520882487" duration="22000" />
+      <workItem from="1566524281485" duration="3059000" />
+      <workItem from="1566528232011" duration="1137000" />
+      <workItem from="1566823532610" duration="634000" />
+      <workItem from="1566826593933" duration="11000" />
+      <workItem from="1567427969582" duration="5797000" />
     </task>
     <task id="LOCAL-00001" summary="测试文件发生了修改">
       <created>1566265195556</created>
@@ -311,7 +326,14 @@
       <option name="project" value="LOCAL" />
       <updated>1566376953622</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="新增中文效验">
+      <created>1566483490297</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1566483490298</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -444,6 +466,31 @@
             </State>
           </value>
         </entry>
+        <entry key="6">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="roots">
+                    <value>
+                      <list>
+                        <option value="$PROJECT_DIR$" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
         <entry key="MAIN">
           <value>
             <State>
@@ -456,10 +503,6 @@
     <option name="OPEN_TABS">
       <set>
         <option value="1" />
-        <option value="2" />
-        <option value="3" />
-        <option value="4" />
-        <option value="5" />
       </set>
     </option>
   </component>
@@ -470,7 +513,8 @@
     <MESSAGE value="新增浮点型数字效验" />
     <MESSAGE value="新增身份证验证输出性别，&#10;修改身份证验证如果地区无对应关系报错的BUG" />
     <MESSAGE value="新增身份证验证输出性别" />
-    <option name="LAST_COMMIT_MESSAGE" value="新增身份证验证输出性别" />
+    <MESSAGE value="新增中文效验" />
+    <option name="LAST_COMMIT_MESSAGE" value="新增中文效验" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -484,6 +528,6 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/xToolkit$test.coverage" NAME="test Coverage Results" MODIFIED="1566483127040" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/xToolkit$test.coverage" NAME="test Coverage Results" MODIFIED="1567434082430" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

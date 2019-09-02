@@ -11,44 +11,15 @@
 from xToolkit.xstring.verification import DataProofreading
 
 
-# 身份证效验
-def identity(strings):
+# 数据效验
+def verified(strings, dtype="float_int"):
     """
-    输入身份证号码，进行效验，如果合规，返回 code 为0000，如果不合规返回其他编号，并提示不合格原因
-    如果合规返回，成功表示Turn表示，生日，归属地
+    dtype 的值为：
+    identity：进行中国大陆身份证效验
+    iphone：手机号码效验
+    float_int：浮点型或者整形(正负都可以)
+    float：浮点型(正负都可以)
+    name：姓名（只含中文）
+    bank：银行卡效验
     """
-    return DataProofreading().identity(strings)
-
-
-# 手机号码效验
-def cellphone(strings):
-    """
-    移动：134、135、136、137、138、139、150、151、152、157(TD)、158、159、178(新)、182、184、187、188
-    联通：130、131、132、152、155、156、185、186
-    电信：133、153、170、173、177、180、181、189、（1349卫通）
-    总结起来就是第一位必定为1，第二位必定为3或5或8，其他位置的可以为0 - 9
-    使用正则表达式 ^1[3|5|7|8|][0-9]{9}$
-    """
-    return DataProofreading().cellphone(strings)
-
-
-# 效验数字
-def figure(strings, mold=1):
-    """
-    Python 中已经有效验整数的方法 isdigit，只能效验整数
-    此方法新增其他的一些数字效验
-    mole的值为：
-    1.代表 浮点型或者整形(正负都可以)
-    2.代表 浮点型(正负都可以)
-    """
-    return DataProofreading().figure(strings, mold)
-
-
-# 效验中文
-def characters(strings, mold=1):
-    """
-    进行汉字效验
-    mole的值为：
-    1.代表 只含中文
-    """
-    return DataProofreading().characters(strings, mold)
+    return DataProofreading().verified(strings=strings, dtype=dtype)
