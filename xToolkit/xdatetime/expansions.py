@@ -21,17 +21,18 @@ def shape(date, *args, **kwargs):
 
 
 # 查询日期区间
-def start_and_end(genre="M", space=0, *args, **kwargs):
+def start_and_end(genre="M", space=0, month=arrow.now().format("YYYY-DD") + "01", *args, **kwargs):
     """
     计算指定时间段的第一天和最后一天
     genre:"M"代表月,"Y"代表年
     space: 代表间距　正数代表以后,负数代表以前,绝对值必须为正整数
+    month: 代表时间，默认时间为当前月，如果传入时间，就取传入的时间
     返回值为列表
 
     默认返回值：
     本月的第一天和最后一天的列表,比如[2019-05-01,2019-05-31]
     """
-    return XDateTime.start_and_end(genre, space, *args, **kwargs)
+    return XDateTime.start_and_end(genre, space, month, *args, **kwargs)
 
 
 # 获取星期列表

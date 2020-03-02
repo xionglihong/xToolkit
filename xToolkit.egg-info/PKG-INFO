@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: xToolkit
-Version: 0.0.29
+Version: 0.0.30
 Summary: 此库从新封装了python下常用的数据类型，在内置模块的基础扩展了部分功能.
 Home-page: https://github.com/xionglihong/xToolkit
 Author: xionglihong
@@ -159,6 +159,10 @@ Description: 这个库是python内置库的一个扩展库.把python的datetime,
         
         2019年08月22日　v0.0.29 
         - 新增中文效验，修改数字效验的逻辑，新增了正负数字的效验
+        
+        2019年09月02日　v0.0.30
+        - 新增浮点数，银行卡效验
+        - 新增时间点是否在时间区间中判断
 Keywords: xToolkit,xtoolkit,x,tool,toolkit
 Platform: any
 Classifier: Development Status :: 3 - Alpha

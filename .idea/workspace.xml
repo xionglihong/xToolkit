@@ -2,22 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2ee7d59e-0f52-47cc-a065-12ecfe2afbd8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/dist/xToolkit-0.0.28.tar.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/xToolkit-0.0.29.tar.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/编写计划.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/Administrator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/Administrator.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/setup.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/xToolkit.egg-info/PKG-INFO" beforeDir="false" afterPath="$PROJECT_DIR$/xToolkit.egg-info/PKG-INFO" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xToolkit.egg-info/SOURCES.txt" beforeDir="false" afterPath="$PROJECT_DIR$/xToolkit.egg-info/SOURCES.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xToolkit/xdatetime/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/xToolkit/xdatetime/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/xToolkit/xdatetime/expansion.py" beforeDir="false" afterPath="$PROJECT_DIR$/xToolkit/xdatetime/expansion.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/xToolkit/xdatetime/expansions.py" beforeDir="false" afterPath="$PROJECT_DIR$/xToolkit/xdatetime/expansions.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xToolkit/xstring/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/xToolkit/xstring/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xToolkit/xstring/collect.py" beforeDir="false" afterPath="$PROJECT_DIR$/xToolkit/xstring/collect.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xToolkit/xstring/verification.py" beforeDir="false" afterPath="$PROJECT_DIR$/xToolkit/xstring/verification.py" afterDir="false" />
     </list>
     <list id="d9251737-cd34-4d75-9638-917c8f8a6de4" name="Revert &quot;新增身份证验证输出性别&quot;" comment="Revert &quot;新增身份证验证输出性别&quot;&#10;&#10;This reverts commit cf6a82e0">
       <change beforePath="$PROJECT_DIR$/build/lib/xToolkit/__init__.py" beforeDir="false" />
@@ -31,7 +20,6 @@
       <change beforePath="$PROJECT_DIR$/dist/xToolkit-0.0.26.tar.gz" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/xToolkit-0.0.27.tar.gz" beforeDir="false" afterPath="$PROJECT_DIR$/dist/xToolkit-0.0.27.tar.gz" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -67,6 +55,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ChangesTree.GroupingKeys" value="" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
@@ -86,18 +75,6 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager" selected="Python.test">
     <configuration name="basics (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
@@ -220,6 +197,18 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -282,7 +271,17 @@
       <workItem from="1566528232011" duration="1137000" />
       <workItem from="1566823532610" duration="634000" />
       <workItem from="1566826593933" duration="11000" />
-      <workItem from="1567427969582" duration="5797000" />
+      <workItem from="1567427969582" duration="6981000" />
+      <workItem from="1567472148491" duration="13000" />
+      <workItem from="1567472162956" duration="7000" />
+      <workItem from="1567560614490" duration="442000" />
+      <workItem from="1569588018938" duration="185000" />
+      <workItem from="1569591078161" duration="3000" />
+      <workItem from="1569641596170" duration="398000" />
+      <workItem from="1570527270728" duration="869000" />
+      <workItem from="1570528301306" duration="246000" />
+      <workItem from="1579613451414" duration="49000" />
+      <workItem from="1579687105165" duration="608000" />
     </task>
     <task id="LOCAL-00001" summary="测试文件发生了修改">
       <created>1566265195556</created>
@@ -333,7 +332,14 @@
       <option name="project" value="LOCAL" />
       <updated>1566483490298</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="第0.31版本，新增时间点在时间区间的判断">
+      <created>1567434411763</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1567434411763</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -514,7 +520,18 @@
     <MESSAGE value="新增身份证验证输出性别，&#10;修改身份证验证如果地区无对应关系报错的BUG" />
     <MESSAGE value="新增身份证验证输出性别" />
     <MESSAGE value="新增中文效验" />
-    <option name="LAST_COMMIT_MESSAGE" value="新增中文效验" />
+    <MESSAGE value="第0.31版本，新增时间点在时间区间的判断" />
+    <option name="LAST_COMMIT_MESSAGE" value="第0.31版本，新增时间点在时间区间的判断" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1579693195274">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1579693195274" />
+    <state x="640" y="342" key="com.intellij.ide.util.TipDialog" timestamp="1579692967962">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="640" y="342" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1579692967962" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

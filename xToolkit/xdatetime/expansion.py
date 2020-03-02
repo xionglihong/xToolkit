@@ -30,11 +30,12 @@ class XDateTime(object):
             return False
 
     @classmethod
-    def start_and_end(self, genre, space, *args, **kwargs):
+    def start_and_end(self, genre, space, month, *args, **kwargs):
         """
         计算指定时间段的第一天和最后一天
         genre:"M"代表月,"Y"代表年
         space: 代表间距　正数代表以后,负数代表以前,绝对值必须为正整数
+        month: 代表时间，默认时间为当前月，如果传入时间，就取传入的时间
         返回值为列表
 
         默认返回值：
@@ -43,7 +44,7 @@ class XDateTime(object):
         # 如果类型为月
         if genre == "M":
             # 指定月第一天
-            start = eval("""arrow.now().shift(months={}).format("YYYY-MM-01")""".format(space))
+            start = eval("""arrow.get("{}").shift(months={}).format("YYYY-MM-01")""".format(month, space))
             # 指定月的最后一天
             end = eval("""arrow.get("{}").shift(months=1).shift(days=-1).format("YYYY-MM-DD")""".format(start))
 
@@ -51,7 +52,7 @@ class XDateTime(object):
         # 如果类型为年
         elif genre == "Y":
             # 指定年第一天
-            start = eval("""arrow.now().shift(years={}).format("YYYY-01-01")""".format(space))
+            start = eval("""arrow.get("{}").shift(months={}).format("YYYY-MM-01")""".format(month, space))
             # 指定年的最后一天
             end = eval("""arrow.get("{}").shift(years=1).shift(days=-1).format("YYYY-MM-DD")""".format(start))
 
