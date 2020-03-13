@@ -5,7 +5,7 @@
 @email:xionglihong@163.com
 @phone：15172383635
 @project: X工具集->时间库
-@file: __init__.py.py
+@file: __init__.py
 @time: 2019-05-15 下午9:27
 """
 # 此处用于引入arrow，使得可以直接调用arrow成员

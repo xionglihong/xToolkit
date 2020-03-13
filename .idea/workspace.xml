@@ -1,25 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2ee7d59e-0f52-47cc-a065-12ecfe2afbd8" name="Default Changelist" comment="">
+    <list default="true" id="2ee7d59e-0f52-47cc-a065-12ecfe2afbd8" name="Default Changelist" comment="第0.31版本，新增时间点在时间区间的判断">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/setup.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xToolkit.egg-info/PKG-INFO" beforeDir="false" afterPath="$PROJECT_DIR$/xToolkit.egg-info/PKG-INFO" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xToolkit/xdatetime/expansion.py" beforeDir="false" afterPath="$PROJECT_DIR$/xToolkit/xdatetime/expansion.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xToolkit/xdatetime/expansions.py" beforeDir="false" afterPath="$PROJECT_DIR$/xToolkit/xdatetime/expansions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/xToolkit.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/xToolkit.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_xtoolkit.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xToolkit/xdatetime/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/xToolkit/xdatetime/__init__.py" afterDir="false" />
     </list>
-    <list id="d9251737-cd34-4d75-9638-917c8f8a6de4" name="Revert &quot;新增身份证验证输出性别&quot;" comment="Revert &quot;新增身份证验证输出性别&quot;&#10;&#10;This reverts commit cf6a82e0">
-      <change beforePath="$PROJECT_DIR$/build/lib/xToolkit/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/lib/xToolkit/xdatetime/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/lib/xToolkit/xdatetime/expansion.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/lib/xToolkit/xdatetime/expansions.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/lib/xToolkit/xthreading/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/lib/xToolkit/xthreading/expansion.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/xToolkit-0.0.24.tar.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/xToolkit-0.0.25.tar.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/xToolkit-0.0.26.tar.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/xToolkit-0.0.27.tar.gz" beforeDir="false" afterPath="$PROJECT_DIR$/dist/xToolkit-0.0.27.tar.gz" afterDir="false" />
-    </list>
+    <list id="d9251737-cd34-4d75-9638-917c8f8a6de4" name="Revert &quot;新增身份证验证输出性别&quot;" comment="Revert &quot;新增身份证验证输出性别&quot;&#10;&#10;This reverts commit cf6a82e0" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,6 +21,9 @@
     <SUITE FILE_PATH="coverage/xToolkit$expansion.coverage" NAME="expansion Coverage Results" MODIFIED="1558534408369" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/xToolkit/xdatetime" />
     <SUITE FILE_PATH="coverage/xToolkit$setup.coverage" NAME="setup Coverage Results" MODIFIED="1558963602955" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/test$basics.coverage" NAME="basics Coverage Results" MODIFIED="1558141837023" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/xToolkit/xDatetime" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="xToolkit" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -48,10 +40,16 @@
       </GitPushTagMode>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="MERGE" />
   </component>
   <component name="ProjectId" id="1PfVM222TJIcd5fJ2t8p9LS53jS" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="ChangesTree.GroupingKeys" value="" />
@@ -63,10 +61,10 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../WanBaoScience" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyIntegratedToolsModulesConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -76,7 +74,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.test">
+  <component name="RunManager" selected="Python tests.pytest in test_xtoolkit.py">
     <configuration name="basics (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="xToolkit" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -91,28 +89,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/xToolkit/xDateTime/basics.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="basics" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="xToolkit" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/xToolkit/xDatetime" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/xToolkit/xDatetime/basics.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -178,7 +154,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
+      <option name="SCRIPT_NAME" value="D:\Exploitation\xToolkit\test_xtoolkit.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -187,13 +163,36 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="pytest in test_xtoolkit.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="xToolkit" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test_xtoolkit.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.basics (1)" />
+      <item itemvalue="Python.expansion" />
+      <item itemvalue="Python.setup" />
+      <item itemvalue="Python.test" />
+      <item itemvalue="Python tests.pytest in test_xtoolkit.py" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.pytest in test_xtoolkit.py" />
         <item itemvalue="Python.test" />
         <item itemvalue="Python.setup" />
         <item itemvalue="Python.expansion" />
         <item itemvalue="Python.basics (1)" />
-        <item itemvalue="Python.basics" />
       </list>
     </recent_temporary>
   </component>
@@ -282,6 +281,10 @@
       <workItem from="1570528301306" duration="246000" />
       <workItem from="1579613451414" duration="49000" />
       <workItem from="1579687105165" duration="608000" />
+      <workItem from="1583929900907" duration="432000" />
+      <workItem from="1584088122574" duration="686000" />
+      <workItem from="1584088829866" duration="1732000" />
+      <workItem from="1584100558492" duration="3307000" />
     </task>
     <task id="LOCAL-00001" summary="测试文件发生了修改">
       <created>1566265195556</created>
@@ -524,14 +527,46 @@
     <option name="LAST_COMMIT_MESSAGE" value="第0.31版本，新增时间点在时间区间的判断" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1579693195274">
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584102333848">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1579693195274" />
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584102333848" />
+    <state x="554" y="113" key="CommitChangelistDialog2" timestamp="1584100803694">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="554" y="113" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1584100803694" />
+    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1584089366591">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1584089366591" />
+    <state width="1899" height="282" key="GridCell.Tab.0.bottom" timestamp="1584105068950">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1584105068950" />
+    <state width="1899" height="282" key="GridCell.Tab.0.center" timestamp="1584105068949">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1584105068949" />
+    <state width="1899" height="282" key="GridCell.Tab.0.left" timestamp="1584105068949">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1584105068949" />
+    <state width="1899" height="282" key="GridCell.Tab.0.right" timestamp="1584105068949">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1584105068949" />
+    <state x="461" y="162" key="SettingsEditor" timestamp="1584104633608">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1584104633608" />
     <state x="640" y="342" key="com.intellij.ide.util.TipDialog" timestamp="1579692967962">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="640" y="342" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1579692967962" />
+    <state x="752" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1584100576772">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="752" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1584100576772" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -545,6 +580,7 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/xToolkit$test.coverage" NAME="test Coverage Results" MODIFIED="1567434082430" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/xToolkit$test.coverage" NAME="test Coverage Results" MODIFIED="1584104465005" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/xToolkit$pytest_in_test_xToolKit_py.coverage" NAME="pytest in test_xtoolkit.py Coverage Results" MODIFIED="1584104731202" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
