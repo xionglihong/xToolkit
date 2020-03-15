@@ -1,10 +1,12 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-# @Time    : 2020/3/15 22:21
+# @Time    : 2020/3/15 21:58
 # @Author  : 熊利宏
-# @project : 时间模块
+# @project : 手写数字识别
 # @Email   : xionglihong@163.com
-# @File    : __init__.py
+# @File    : api.py
 # @IDE     : PyCharm
 
-from .api import get
+# 版本号
+VERSION = "0.0.31"
+
