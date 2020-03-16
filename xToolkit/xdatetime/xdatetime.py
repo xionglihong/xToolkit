@@ -23,9 +23,6 @@ import re
 # 此处不能进行相对导入，二个顶级包不能进行相对导入
 from xToolkit.xtoolkit import XToolkit
 
-# 版本号
-from ..api import VERSION
-
 
 # 基础功能
 class BasicFunction(object):
@@ -141,11 +138,6 @@ class XDataTime(XToolkit):
     def __str__(self):
         return self._datetime.isoformat()
 
-    # 版本号
-    @staticmethod
-    def version():
-        return VERSION
-
     # 获取本机时间
     @classmethod
     def now(cls, tzinfo=None):
@@ -164,7 +156,7 @@ class XDataTime(XToolkit):
 
     # 格式化时间戳
     @classmethod
-    def fromtimestamp(cls, timestamp, tzinfo=None):
+    def to_timestamp(cls, timestamp, tzinfo=None):
         """
         格式化时间戳
 
@@ -190,12 +182,17 @@ class XDataTime(XToolkit):
 class XDateReady(object):
 
     def __init__(self):
+        # 指向时间基类
         self.limit = XDataTime
 
-        # 实例化基础功能类
+        # 实例化时间基础功能类
         self.basic = BasicFunction()
 
-    # 预处理
+    # 版本号
+    def version(self):
+        return self.limit.version()
+
+    # get 方法
     def get(self, *args, **kwargs):
         """
         可接受值类型：XDateTime(本模块定义类型)，datetime(python内置日期时间类型),string，空置，None
@@ -220,4 +217,4 @@ class XDateReady(object):
                 if tz is None:
                     # 默认设置为UTC
                     tz = dateutil_tz.tzutc()
-                return self.limit.fromtimestamp(arg, tzinfo=tz)
+                return self.limit.to_timestamp(arg, tzinfo=tz)

@@ -13,6 +13,14 @@ from .xdatetime import XDateReady
 xdt = XDateReady()
 
 
+# 版本号
+def version():
+    """
+    输出版本号
+    """
+    return xdt.version()
+
+
 # get方法
 def get(*args, **kwargs):
     """

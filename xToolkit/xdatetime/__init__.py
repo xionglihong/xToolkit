@@ -7,4 +7,4 @@
 # @File    : __init__.py
 # @IDE     : PyCharm
 
-from .api import get
+from .api import version, get
