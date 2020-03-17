@@ -4,7 +4,7 @@
 # @Author  : 熊利宏
 # @project : 时间模块
 # @Email   : xionglihong@163.com
-# @File    : xdatetime.py
+# @File    : xtime.py
 # @IDE     : PyCharm
 
 from __future__ import absolute_import
@@ -188,14 +188,10 @@ class XDateReady(object):
         # 实例化时间基础功能类
         self.basic = BasicFunction()
 
-    # 版本号
-    def version(self):
-        return self.limit.version()
-
     # get 方法
     def get(self, *args, **kwargs):
         """
-        可接受值类型：XDateTime(本模块定义类型)，datetime(python内置日期时间类型),string，空置，None
+        可接受值类型：XDateTime(本模块定义类型)，datetime(python内置日期时间类型),xstring，空置，None
         """
         args_count = len(args)
         tz = kwargs.get("tzinfo", None)

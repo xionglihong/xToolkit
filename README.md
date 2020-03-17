@@ -14,7 +14,7 @@ https://www.showdoc.cc/xToolkit?page_id=2133295307421808
 ##### 实例：
 ##### 导入xToolkit库
 ```python
-from xToolkit import xdatetime
+from xToolkit import xtime
 ```
 ##### 判断时间格式时分正确
 

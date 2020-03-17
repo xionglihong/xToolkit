@@ -7,7 +7,7 @@
 # @File    : api.py
 # @IDE     : PyCharm
 
-from .xdatetime import XDateReady
+from .xtime import XDateReady
 
 # 实例化时间模块
 xdt = XDateReady()

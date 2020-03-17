@@ -4,6 +4,7 @@
       <w>dateutil</w>
       <w>tzinfo</w>
       <w>xdatetime</w>
+      <w>xtime</w>
       <w>xtoolkit</w>
     </words>
   </dictionary>

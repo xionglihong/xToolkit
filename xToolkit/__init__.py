@@ -8,4 +8,10 @@
 # @IDE     : PyCharm
 
 # 时间模块
-from xToolkit import xdatetime
+from xToolkit import xtime
+
+# 字符串模块
+from xToolkit.xstring.api import xstring
+
+# 版本号
+VERSION = "0.0.31"
