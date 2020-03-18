@@ -11,5 +11,5 @@
 from xToolkit import VERSION, xstring
 
 if __name__ == "__main__":
-    print(VERSION)
-    print(xstring.check("e").is_car_number())
+    print(xstring.check("鄂A96288").is_car_number())
+

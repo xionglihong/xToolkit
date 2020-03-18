@@ -11,7 +11,7 @@
 from xToolkit import xtime
 
 # 字符串模块
-from xToolkit.xstring.api import xstring
+from xToolkit.xstring import xstring
 
 # 版本号
 VERSION = "0.0.31"
