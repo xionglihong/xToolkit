@@ -9,7 +9,12 @@
 
 import pytest
 
-from xToolkit import VERSION, xstring
+from xToolkit import xstring, xtime
+
+# 自定义时区
+from xToolkit.xtime.xdatetime.xdatetime import UTC8
+
+import arrow
 
 
 # 字符串模块
@@ -50,3 +55,51 @@ class TestXstring(object):
     @pytest.mark.parametrize("identity,result", identity_card_true)
     def test_identity_card_true(self, identity, result):
         assert xstring.check(identity).is_identity_card(True) == result
+
+
+# 时间模块
+class TestXtime(object):
+
+    # 获取本地时间
+    def test_get_now(self):
+        assert xtime.get().format() == arrow.now().format("YYYY-MM-DD HH:mm:ss")
+
+    # 获取UTC时间
+    def test_get_utc_now(self):
+        assert xtime.get(tz=UTC8(hours=0, minutes=0)).format() == arrow.utcnow().format("YYYY-MM-DD HH:mm:ss")
+
+    timestamp_data = [1584689499.2525, 1584689499, 1584689499.252555, 1584689499.12457899999, 1584]
+
+    # 时间戳转时间格式(UTC)
+    @pytest.mark.parametrize("timestamp", timestamp_data)
+    def test_timestamp_utc_datetime(self, timestamp):
+        assert xtime.get(timestamp, tz=UTC8(hours=0, minutes=0)).format() == arrow.get(timestamp).format("YYYY-MM-DD HH:mm:ss")
+
+    # 时间戳转时间格式(北京时间)
+    @pytest.mark.parametrize("timestamp", timestamp_data)
+    def test_timestamp_beijing_datetime(self, timestamp):
+        assert xtime.get(timestamp).format() == arrow.get(timestamp, tzinfo=UTC8()).format("YYYY-MM-DD HH:mm:ss")
+
+    all_datetime_string = [
+        # 完整日期，时间，微秒，时区
+        ("2020-03-20T22:09:06.252525+0800", "%Y-%m-%dT%H:%M:%S.%f%z"),
+        ("2020-03-20 10:09:06.252525+0800", "%Y-%m-%d %H:%M:%S.%f%z"),
+        ("2020/03/20T10:09:06.252525+0800", "%Y/%m/%dT%H:%M:%S.%f%z"),
+
+        # 日期时间
+        ("2020-03-20T22:09:06", "%Y-%m-%dT%H:%M:%S"),
+        ("2020-03-20 10:09:06", "%Y-%m-%d %H:%M:%S"),
+        ("2020/03/20 10:09:06", "%Y/%m/%d %H:%M:%S"),
+        ("2020.03.20 10:09:06", "%Y.%m.%d %H:%M:%S"),
+
+        # 秒级时间
+        ("15:22:56", "%H:%M:%S"),
+
+        # 微秒级时间
+        ("15:22:56.252525", "%H:%M:%S.%f"),
+    ]
+
+    # 时间字符串转时间（完整日期，时间，微秒，时区）
+    @pytest.mark.parametrize("all_datetime_string,formatting", all_datetime_string)
+    def test_string_to_microsecond(self, all_datetime_string, formatting):
+        assert xtime.get(all_datetime_string).format(formatting) == all_datetime_string

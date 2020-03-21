@@ -7,6 +7,9 @@
 # @File    : xtoolkit.py
 # @IDE     : PyCharm
 
+# 格式判断
+from .judgement import JudgeType
+
 
 # 总基类
 class XToolkit(object):
@@ -14,4 +17,6 @@ class XToolkit(object):
     工具集的总基类
     """
 
-    pass
+    def __init__(self):
+        # 格式判断
+        self.judge = JudgeType()
