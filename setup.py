@@ -11,6 +11,9 @@
 
 from setuptools import setup, find_packages
 
+# 版本号
+from xToolkit import VERSION
+
 # 导入信息说明文档
 with open("README.md", "r", encoding="UTF-8") as fh:
     long_description = fh.read()
@@ -19,7 +22,7 @@ setup(
     # pip项目发布的名称
     name="xToolkit",
     # 版本号
-    version="0.0.30",
+    version=VERSION,
     # 模块的关键词，使用空格分割
     keywords=("xToolkit", "xtoolkit", "x", "tool", "toolkit"),
     # 项目的简单描述：

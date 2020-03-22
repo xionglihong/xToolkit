@@ -1,19 +1,103 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2ee7d59e-0f52-47cc-a065-12ecfe2afbd8" name="Default Changelist" comment="新增字符串处理模块">
-      <change afterPath="$PROJECT_DIR$/xToolkit/xstring/dispose/dispose.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xToolkit/xtime/xdatetime/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xToolkit/xtime/xdatetime/xdatetime.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xToolkit/xtoolkit/judgement.py" afterDir="false" />
+    <list default="true" id="2ee7d59e-0f52-47cc-a065-12ecfe2afbd8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/build/bdist.linux-x86_64/wheel/xToolkit-0.0.31.dist-info/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/bdist.linux-x86_64/wheel/xToolkit-0.0.31.dist-info/dependency_links.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/bdist.linux-x86_64/wheel/xToolkit-0.0.31.dist-info/top_level.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/bdist.linux-x86_64/wheel/xToolkit-0.0.31.egg-info/PKG-INFO" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/bdist.linux-x86_64/wheel/xToolkit-0.0.31.egg-info/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/bdist.linux-x86_64/wheel/xToolkit-0.0.31.egg-info/SOURCES.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/bdist.linux-x86_64/wheel/xToolkit-0.0.31.egg-info/dependency_links.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/bdist.linux-x86_64/wheel/xToolkit-0.0.31.egg-info/requires.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/bdist.linux-x86_64/wheel/xToolkit-0.0.31.egg-info/top_level.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/bdist.linux-x86_64/wheel/xToolkit-0.0.32.dist-info/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/bdist.linux-x86_64/wheel/xToolkit-0.0.32.dist-info/dependency_links.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/bdist.linux-x86_64/wheel/xToolkit-0.0.32.dist-info/top_level.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/bdist.linux-x86_64/wheel/xToolkit-0.0.32.egg-info/PKG-INFO" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/bdist.linux-x86_64/wheel/xToolkit-0.0.32.egg-info/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/bdist.linux-x86_64/wheel/xToolkit-0.0.32.egg-info/SOURCES.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/bdist.linux-x86_64/wheel/xToolkit-0.0.32.egg-info/dependency_links.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/bdist.linux-x86_64/wheel/xToolkit-0.0.32.egg-info/requires.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/bdist.linux-x86_64/wheel/xToolkit-0.0.32.egg-info/top_level.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/bdist.linux-x86_64/wheel/xToolkit-0.0.33-py3.6.egg-info/PKG-INFO" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/bdist.linux-x86_64/wheel/xToolkit-0.0.33-py3.6.egg-info/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/bdist.linux-x86_64/wheel/xToolkit-0.0.33-py3.6.egg-info/SOURCES.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/bdist.linux-x86_64/wheel/xToolkit-0.0.33-py3.6.egg-info/dependency_links.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/bdist.linux-x86_64/wheel/xToolkit-0.0.33-py3.6.egg-info/requires.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/bdist.linux-x86_64/wheel/xToolkit-0.0.33-py3.6.egg-info/top_level.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/bdist.linux-x86_64/wheel/xToolkit-0.0.33.dist-info/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/bdist.linux-x86_64/wheel/xToolkit-0.0.33.dist-info/dependency_links.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/bdist.linux-x86_64/wheel/xToolkit-0.0.33.dist-info/top_level.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/bdist.linux-x86_64/wheel/xToolkit-0.0.34-py3.6.egg-info/PKG-INFO" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/bdist.linux-x86_64/wheel/xToolkit-0.0.34-py3.6.egg-info/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/bdist.linux-x86_64/wheel/xToolkit-0.0.34-py3.6.egg-info/SOURCES.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/bdist.linux-x86_64/wheel/xToolkit-0.0.34-py3.6.egg-info/dependency_links.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/bdist.linux-x86_64/wheel/xToolkit-0.0.34-py3.6.egg-info/requires.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/bdist.linux-x86_64/wheel/xToolkit-0.0.34-py3.6.egg-info/top_level.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/bdist.linux-x86_64/wheel/xToolkit-0.0.34.dist-info/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/bdist.linux-x86_64/wheel/xToolkit-0.0.34.dist-info/dependency_links.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/bdist.linux-x86_64/wheel/xToolkit-0.0.34.dist-info/top_level.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/bdist.linux-x86_64/wheel/xToolkit-0.0.37.dist-info/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/bdist.linux-x86_64/wheel/xToolkit-0.0.37.dist-info/dependency_links.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/bdist.linux-x86_64/wheel/xToolkit-0.0.37.dist-info/top_level.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/bdist.linux-x86_64/wheel/xToolkit-0.0.37.egg-info/PKG-INFO" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/bdist.linux-x86_64/wheel/xToolkit-0.0.37.egg-info/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/bdist.linux-x86_64/wheel/xToolkit-0.0.37.egg-info/SOURCES.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/bdist.linux-x86_64/wheel/xToolkit-0.0.37.egg-info/dependency_links.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/bdist.linux-x86_64/wheel/xToolkit-0.0.37.egg-info/requires.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/bdist.linux-x86_64/wheel/xToolkit-0.0.37.egg-info/top_level.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/bdist.linux-x86_64/wheel/xToolkit/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/bdist.linux-x86_64/wheel/xToolkit/xstring/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/bdist.linux-x86_64/wheel/xToolkit/xstring/api.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/bdist.linux-x86_64/wheel/xToolkit/xstring/check/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/bdist.linux-x86_64/wheel/xToolkit/xstring/check/check.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/bdist.linux-x86_64/wheel/xToolkit/xstring/dispose/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/bdist.linux-x86_64/wheel/xToolkit/xstring/dispose/dispose.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/bdist.linux-x86_64/wheel/xToolkit/xtime/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/bdist.linux-x86_64/wheel/xToolkit/xtime/api.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/bdist.linux-x86_64/wheel/xToolkit/xtime/xdatetime/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/bdist.linux-x86_64/wheel/xToolkit/xtime/xdatetime/xdatetime.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/bdist.linux-x86_64/wheel/xToolkit/xtoolkit/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/bdist.linux-x86_64/wheel/xToolkit/xtoolkit/judgement.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/bdist.linux-x86_64/wheel/xToolkit/xtoolkit/xtoolkit.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/lib/xToolkit/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/lib/xToolkit/xstring/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/lib/xToolkit/xstring/api.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/lib/xToolkit/xstring/check/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/lib/xToolkit/xstring/check/check.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/lib/xToolkit/xstring/dispose/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/lib/xToolkit/xstring/dispose/dispose.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/lib/xToolkit/xtime/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/lib/xToolkit/xtime/api.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/lib/xToolkit/xtime/xdatetime/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/lib/xToolkit/xtime/xdatetime/xdatetime.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/lib/xToolkit/xtoolkit/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/lib/xToolkit/xtoolkit/judgement.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/lib/xToolkit/xtoolkit/xtoolkit.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/xToolkit-0.0.37.tar.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_xtoolkit.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_xtoolkit.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/xToolkit-0.0.11.tar.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/xToolkit-0.0.12.tar.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/xToolkit-0.0.13.tar.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/xToolkit-0.0.14.tar.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/xToolkit-0.0.15.tar.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/xToolkit-0.0.16.tar.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/xToolkit-0.0.17.tar.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/xToolkit-0.0.18.tar.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/xToolkit-0.0.19.tar.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/xToolkit-0.0.20.tar.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/xToolkit-0.0.21.tar.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/xToolkit-0.0.22.tar.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/xToolkit-0.0.23.tar.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/xToolkit-0.0.27.tar.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/xToolkit-0.0.28.tar.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/xToolkit-0.0.29.tar.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/xToolkit-0.0.30.tar.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/setup.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xToolkit.egg-info/PKG-INFO" beforeDir="false" afterPath="$PROJECT_DIR$/xToolkit.egg-info/PKG-INFO" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xToolkit.egg-info/SOURCES.txt" beforeDir="false" afterPath="$PROJECT_DIR$/xToolkit.egg-info/SOURCES.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/xToolkit/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/xToolkit/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xToolkit/xtime/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/xToolkit/xtime/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xToolkit/xtime/api.py" beforeDir="false" afterPath="$PROJECT_DIR$/xToolkit/xtime/api.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xToolkit/xtime/xtime.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xToolkit/xtoolkit/xtoolkit.py" beforeDir="false" afterPath="$PROJECT_DIR$/xToolkit/xtoolkit/xtoolkit.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,6 +144,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ChangesTree.GroupingKeys" value="" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -291,7 +376,8 @@
       <workItem from="1584666573588" duration="27424000" />
       <workItem from="1584749111269" duration="4984000" />
       <workItem from="1584762509441" duration="1013000" />
-      <workItem from="1584773383866" duration="12204000" />
+      <workItem from="1584773383866" duration="13270000" />
+      <workItem from="1584834564294" duration="4355000" />
     </task>
     <task id="LOCAL-00001" summary="测试文件发生了修改">
       <created>1566265195556</created>
@@ -384,7 +470,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584572813464</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="把格式判断类调整到总基类模块里面">
+      <created>1584796266499</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1584796266499</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -431,10 +524,10 @@
                       </list>
                     </value>
                   </entry>
-                  <entry key="roots">
+                  <entry key="structure">
                     <value>
                       <list>
-                        <option value="$PROJECT_DIR$" />
+                        <option value="dir:D:/Exploitation/xToolkit/xToolkit" />
                       </list>
                     </value>
                   </entry>
@@ -554,10 +647,12 @@
     <option name="OPEN_TABS">
       <set>
         <option value="1" />
+        <option value="2" />
       </set>
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="测试文件发生了修改" />
     <MESSAGE value="新增身份证效验和手机号效验功能" />
     <MESSAGE value="修改说明文档编排错误" />
@@ -571,7 +666,8 @@
     <MESSAGE value="加入了单元测试模块pytest" />
     <MESSAGE value="新增字符串模块" />
     <MESSAGE value="新增字符串处理模块" />
-    <option name="LAST_COMMIT_MESSAGE" value="新增字符串处理模块" />
+    <MESSAGE value="把格式判断类调整到总基类模块里面" />
+    <option name="LAST_COMMIT_MESSAGE" value="把格式判断类调整到总基类模块里面" />
   </component>
   <component name="WindowStateProjectService">
     <state x="534" y="178" key="#Deployment" timestamp="1584716551913">
@@ -590,10 +686,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584277946846" />
-    <state x="554" y="113" key="CommitChangelistDialog2" timestamp="1584716604722">
+    <state x="554" y="113" key="CommitChangelistDialog2" timestamp="1584796264182">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="554" y="113" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1584716604722" />
+    <state x="554" y="113" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1584796264182" />
     <state x="184" y="92" key="DiffContextDialog" timestamp="1584106254694">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -602,22 +698,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1584763752006" />
-    <state width="1899" height="553" key="GridCell.Tab.0.bottom" timestamp="1584796183050">
+    <state width="1899" height="553" key="GridCell.Tab.0.bottom" timestamp="1584798005443">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="553" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1584796183050" />
-    <state width="1899" height="553" key="GridCell.Tab.0.center" timestamp="1584796183049">
+    <state width="1899" height="553" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1584798005443" />
+    <state width="1899" height="553" key="GridCell.Tab.0.center" timestamp="1584798005443">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="553" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1584796183049" />
-    <state width="1899" height="553" key="GridCell.Tab.0.left" timestamp="1584796183048">
+    <state width="1899" height="553" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1584798005443" />
+    <state width="1899" height="553" key="GridCell.Tab.0.left" timestamp="1584798005442">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="553" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1584796183048" />
-    <state width="1899" height="553" key="GridCell.Tab.0.right" timestamp="1584796183050">
+    <state width="1899" height="553" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1584798005442" />
+    <state width="1899" height="553" key="GridCell.Tab.0.right" timestamp="1584798005443">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="553" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1584796183050" />
+    <state width="1899" height="553" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1584798005443" />
     <state width="1899" height="348" key="GridCell.Tab.1.bottom" timestamp="1584491413879">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -642,14 +738,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1584437299333" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1584286279369">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1584796321664">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1584286279369" />
-    <state x="640" y="342" key="com.intellij.ide.util.TipDialog" timestamp="1584666575477">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1584796321664" />
+    <state x="640" y="342" key="com.intellij.ide.util.TipDialog" timestamp="1584834564504">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="640" y="342" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584666575477" />
+    <state x="640" y="342" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584834564504" />
     <state x="752" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1584286211301">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

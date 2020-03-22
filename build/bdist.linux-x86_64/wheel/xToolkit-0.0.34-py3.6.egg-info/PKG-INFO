@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: xToolkit
-Version: 0.0.37
+Version: 0.0.34
 Summary: 此库从新封装了python下常用的数据类型，在内置模块的基础扩展了部分功能.
 Home-page: https://github.com/xionglihong/xToolkit
 Author: xionglihong
