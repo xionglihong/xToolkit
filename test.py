@@ -23,38 +23,7 @@ from xToolkit import VERSION, xstring, xtime
 # 系统时间库
 from datetime import datetime, tzinfo, timedelta
 
-from xToolkit.xtime.xdatetime.xdatetime import UTC8
+from xToolkit.xdatetime.xdatetime.xdatetime import UTC8
 
 if __name__ == "__main__":
-    # formats = ["YYYY-MM-DD", "YYYY-M-DD", "YYYY-M-D", "YYYY/MM/DD", "YYYY/M/DD", "YYYY/M/D", "YYYY.MM.DD", "YYYY.M.DD", "YYYY.M.D", "YYYYMMDD", "YYYY-DDDD",
-    #            "YYYYDDDD", "YYYY-MM", "YYYY/MM", "YYYY.MM", "YYYY"]
-    #
-    # year = ["%y", "%Y"]
-    # month = ["%m"]
-    # day = ["%d"]
-    # hour = ["%H"]
-    # minute = ["%M"]
-    # second = ["%S"]
-    # microsecond = []
-    # tz = []
-    #
-    # sign = ["-", "/"]
-    #
-    # a = [["%y-%m-%d %H:%M:%S"],
-    #      ["%Y-%m-%d %H:%M:%S"]
-    #      ]
-    #
-    # date_all = ["%Y-%m-%d", "%y-%m-%d"]
-    # time_all = ["%H:%M:%S", "%I:%M:%S"]
-    #
-    # # print(datetime.now().strftime("%y-%m-%dT%H:%M:%S.%f"))
-    # print(datetime.now(tz=UTC8()).isoformat())
-
-    """
-    2020-03-20T22:09:06
-    2020-03-20T10:09:06.278060 PM
-    2020-03-20T22:09:06.278060+08:00
-    """
-    time_string = "15:22:56.252525"
-    print(xtime.get(time_string).format("%H:%M:%S.%f"))
-
+    print(xstring.dispose("420117198807203114").get_identity_card(True))

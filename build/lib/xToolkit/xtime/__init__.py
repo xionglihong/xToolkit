@@ -7,7 +7,7 @@
 # @File    : __init__.py
 # @IDE     : PyCharm
 
-from xToolkit.xtime.api import XTime
+from xToolkit.xdatetime.api import XTime
 
 xtime = XTime()
 

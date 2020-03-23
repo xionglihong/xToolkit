@@ -9,16 +9,16 @@
 
 import pytest
 
-from xToolkit import xstring, xtime
+from xToolkit import xstring, xdatetime
 
 # 自定义时区
-from xToolkit.xtime.xdatetime.xdatetime import UTC8
+from xToolkit.xdatetime.xdatetime.xdatetime import UTC8
 
 import arrow
 
 
-# 字符串模块
-class TestXstring(object):
+# 字符串验证模块
+class TestXstringCheck(object):
 
     # 判断check不传值
     def test_check_no(self):
@@ -32,7 +32,7 @@ class TestXstring(object):
 
     @pytest.mark.parametrize("car,result", car_number)
     def test_car_number(self, car, result):
-        assert xstring.check(car).is_car_number() == result
+        assert xstring.check(car).is_car_number == result
 
     # 验证 ——> 身份证
     identity_card = [("421122199407295810", True), ("422421196711236820", True), ("42098419911025661X", True),
@@ -42,43 +42,47 @@ class TestXstring(object):
 
     @pytest.mark.parametrize("identity,result", identity_card)
     def test_identity_card(self, identity, result):
-        assert xstring.check(identity).is_identity_card() == result
+        assert xstring.check(identity).is_identity_card == result
 
-    # 验证 ——> 身份证（输出错误结果）
+
+# 字符串处理模块
+class TestXstringDispose(object):
+    # 验证 ——> 身份证（输出结果）
     identity_card_true = [("42100219891115244", {'code': '0001', 'msg': '待验证的值长度必须为18位', 'data': None}),
                           ("4211221982042796340", {'code': '0001', 'msg': '待验证的值长度必须为18位', 'data': None}),
                           ("920124198110152322", {'code': '0001', 'msg': '效验码综合验证失败', 'data': None}),
                           ("421122199407295870", {'code': '0001', 'msg': '效验码综合验证失败', 'data': None}),
                           ("422421496711236820", {'code': '0001', 'msg': '效验码综合验证失败', 'data': None}),
+                          ("420117198807203114", {'code': '0000', 'data': {'birthday': '1988-07-20', 'gender': '男'}, 'msg': '身份证格式正确'}),
                           ("40098419911025661X", {'code': '0001', 'msg': '效验码综合验证失败', 'data': None})]
 
     @pytest.mark.parametrize("identity,result", identity_card_true)
-    def test_identity_card_true(self, identity, result):
-        assert xstring.check(identity).is_identity_card(True) == result
+    def test_identity_card_get(self, identity, result):
+        assert xstring.dispose(identity).get_identity_card(True) == result
 
 
 # 时间模块
-class TestXtime(object):
+class TestXDateTime(object):
 
     # 获取本地时间
     def test_get_now(self):
-        assert xtime.get().format() == arrow.now().format("YYYY-MM-DD HH:mm:ss")
+        assert xdatetime.get().format() == arrow.now().format("YYYY-MM-DD HH:mm:ss")
 
     # 获取UTC时间
     def test_get_utc_now(self):
-        assert xtime.get(tz=UTC8(hours=0, minutes=0)).format() == arrow.utcnow().format("YYYY-MM-DD HH:mm:ss")
+        assert xdatetime.get(tz=UTC8(hours=0, minutes=0)).format() == arrow.utcnow().format("YYYY-MM-DD HH:mm:ss")
 
     timestamp_data = [1584689499.2525, 1584689499, 1584689499.252555, 1584689499.12457899999, 1584]
 
     # 时间戳转时间格式(UTC)
     @pytest.mark.parametrize("timestamp", timestamp_data)
     def test_timestamp_utc_datetime(self, timestamp):
-        assert xtime.get(timestamp, tz=UTC8(hours=0, minutes=0)).format() == arrow.get(timestamp).format("YYYY-MM-DD HH:mm:ss")
+        assert xdatetime.get(timestamp, tz=UTC8(hours=0, minutes=0)).format() == arrow.get(timestamp).format("YYYY-MM-DD HH:mm:ss")
 
     # 时间戳转时间格式(北京时间)
     @pytest.mark.parametrize("timestamp", timestamp_data)
     def test_timestamp_beijing_datetime(self, timestamp):
-        assert xtime.get(timestamp).format() == arrow.get(timestamp, tzinfo=UTC8()).format("YYYY-MM-DD HH:mm:ss")
+        assert xdatetime.get(timestamp).format() == arrow.get(timestamp, tzinfo=UTC8()).format("YYYY-MM-DD HH:mm:ss")
 
     all_datetime_string = [
         # 完整日期，时间，微秒，时区
@@ -102,4 +106,4 @@ class TestXtime(object):
     # 时间字符串转时间（完整日期，时间，微秒，时区）
     @pytest.mark.parametrize("all_datetime_string,formatting", all_datetime_string)
     def test_string_to_microsecond(self, all_datetime_string, formatting):
-        assert xtime.get(all_datetime_string).format(formatting) == all_datetime_string
+        assert xdatetime.get(all_datetime_string).format(formatting) == all_datetime_string

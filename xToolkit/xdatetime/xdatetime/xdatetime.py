@@ -100,7 +100,7 @@ class BasicFunction(object):
 
 
 # 基础功能
-class XDataTime(object):
+class Space(object):
     """
     实现时间模块的基础功能
 

@@ -8,7 +8,7 @@
 # @IDE     : PyCharm
 
 # 时间模块
-from xToolkit.xtime import xtime
+from xToolkit.xdatetime import xdatetime
 
 # 字符串模块
 from xToolkit.xstring import xstring

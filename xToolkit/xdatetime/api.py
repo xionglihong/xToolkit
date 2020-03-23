@@ -12,19 +12,19 @@
 from ..xtoolkit import XToolkit
 
 # 时间模块基础功能
-from .xdatetime.xdatetime import XDataTime
+from .xdatetime.xdatetime import Space
 
 
 # 时间模块基类
-class XTime(XToolkit):
+class XDateTime(XToolkit):
 
     def __init__(self):
         # 继承父类的init方法
-        super(XTime, self).__init__()
+        super(XDateTime, self).__init__()
         # self.judge->类型判断
 
         # 指向时间基类
-        self.limit = XDataTime
+        self.limit = Space
 
     # get 方法
     def get(self, *args, **kwargs):

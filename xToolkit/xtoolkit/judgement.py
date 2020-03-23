@@ -9,7 +9,7 @@
 # @REMARKS : 进行格式判断
 
 # 时间模块
-from ..xtime.xdatetime.xdatetime import BasicFunction
+from ..xdatetime.xdatetime.xdatetime import BasicFunction
 
 
 # 类型判断

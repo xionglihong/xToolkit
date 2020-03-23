@@ -2,102 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2ee7d59e-0f52-47cc-a065-12ecfe2afbd8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/build/bdist.linux-x86_64/wheel/xToolkit-0.0.31.dist-info/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/bdist.linux-x86_64/wheel/xToolkit-0.0.31.dist-info/dependency_links.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/bdist.linux-x86_64/wheel/xToolkit-0.0.31.dist-info/top_level.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/bdist.linux-x86_64/wheel/xToolkit-0.0.31.egg-info/PKG-INFO" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/bdist.linux-x86_64/wheel/xToolkit-0.0.31.egg-info/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/bdist.linux-x86_64/wheel/xToolkit-0.0.31.egg-info/SOURCES.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/bdist.linux-x86_64/wheel/xToolkit-0.0.31.egg-info/dependency_links.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/bdist.linux-x86_64/wheel/xToolkit-0.0.31.egg-info/requires.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/bdist.linux-x86_64/wheel/xToolkit-0.0.31.egg-info/top_level.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/bdist.linux-x86_64/wheel/xToolkit-0.0.32.dist-info/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/bdist.linux-x86_64/wheel/xToolkit-0.0.32.dist-info/dependency_links.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/bdist.linux-x86_64/wheel/xToolkit-0.0.32.dist-info/top_level.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/bdist.linux-x86_64/wheel/xToolkit-0.0.32.egg-info/PKG-INFO" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/bdist.linux-x86_64/wheel/xToolkit-0.0.32.egg-info/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/bdist.linux-x86_64/wheel/xToolkit-0.0.32.egg-info/SOURCES.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/bdist.linux-x86_64/wheel/xToolkit-0.0.32.egg-info/dependency_links.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/bdist.linux-x86_64/wheel/xToolkit-0.0.32.egg-info/requires.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/bdist.linux-x86_64/wheel/xToolkit-0.0.32.egg-info/top_level.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/bdist.linux-x86_64/wheel/xToolkit-0.0.33-py3.6.egg-info/PKG-INFO" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/bdist.linux-x86_64/wheel/xToolkit-0.0.33-py3.6.egg-info/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/bdist.linux-x86_64/wheel/xToolkit-0.0.33-py3.6.egg-info/SOURCES.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/bdist.linux-x86_64/wheel/xToolkit-0.0.33-py3.6.egg-info/dependency_links.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/bdist.linux-x86_64/wheel/xToolkit-0.0.33-py3.6.egg-info/requires.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/bdist.linux-x86_64/wheel/xToolkit-0.0.33-py3.6.egg-info/top_level.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/bdist.linux-x86_64/wheel/xToolkit-0.0.33.dist-info/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/bdist.linux-x86_64/wheel/xToolkit-0.0.33.dist-info/dependency_links.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/bdist.linux-x86_64/wheel/xToolkit-0.0.33.dist-info/top_level.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/bdist.linux-x86_64/wheel/xToolkit-0.0.34-py3.6.egg-info/PKG-INFO" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/bdist.linux-x86_64/wheel/xToolkit-0.0.34-py3.6.egg-info/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/bdist.linux-x86_64/wheel/xToolkit-0.0.34-py3.6.egg-info/SOURCES.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/bdist.linux-x86_64/wheel/xToolkit-0.0.34-py3.6.egg-info/dependency_links.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/bdist.linux-x86_64/wheel/xToolkit-0.0.34-py3.6.egg-info/requires.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/bdist.linux-x86_64/wheel/xToolkit-0.0.34-py3.6.egg-info/top_level.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/bdist.linux-x86_64/wheel/xToolkit-0.0.34.dist-info/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/bdist.linux-x86_64/wheel/xToolkit-0.0.34.dist-info/dependency_links.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/bdist.linux-x86_64/wheel/xToolkit-0.0.34.dist-info/top_level.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/bdist.linux-x86_64/wheel/xToolkit-0.0.37.dist-info/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/bdist.linux-x86_64/wheel/xToolkit-0.0.37.dist-info/dependency_links.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/bdist.linux-x86_64/wheel/xToolkit-0.0.37.dist-info/top_level.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/bdist.linux-x86_64/wheel/xToolkit-0.0.37.egg-info/PKG-INFO" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/bdist.linux-x86_64/wheel/xToolkit-0.0.37.egg-info/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/bdist.linux-x86_64/wheel/xToolkit-0.0.37.egg-info/SOURCES.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/bdist.linux-x86_64/wheel/xToolkit-0.0.37.egg-info/dependency_links.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/bdist.linux-x86_64/wheel/xToolkit-0.0.37.egg-info/requires.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/bdist.linux-x86_64/wheel/xToolkit-0.0.37.egg-info/top_level.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/bdist.linux-x86_64/wheel/xToolkit/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/bdist.linux-x86_64/wheel/xToolkit/xstring/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/bdist.linux-x86_64/wheel/xToolkit/xstring/api.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/bdist.linux-x86_64/wheel/xToolkit/xstring/check/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/bdist.linux-x86_64/wheel/xToolkit/xstring/check/check.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/bdist.linux-x86_64/wheel/xToolkit/xstring/dispose/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/bdist.linux-x86_64/wheel/xToolkit/xstring/dispose/dispose.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/bdist.linux-x86_64/wheel/xToolkit/xtime/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/bdist.linux-x86_64/wheel/xToolkit/xtime/api.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/bdist.linux-x86_64/wheel/xToolkit/xtime/xdatetime/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/bdist.linux-x86_64/wheel/xToolkit/xtime/xdatetime/xdatetime.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/bdist.linux-x86_64/wheel/xToolkit/xtoolkit/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/bdist.linux-x86_64/wheel/xToolkit/xtoolkit/judgement.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/bdist.linux-x86_64/wheel/xToolkit/xtoolkit/xtoolkit.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/lib/xToolkit/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/lib/xToolkit/xstring/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/lib/xToolkit/xstring/api.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/lib/xToolkit/xstring/check/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/lib/xToolkit/xstring/check/check.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/lib/xToolkit/xstring/dispose/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/lib/xToolkit/xstring/dispose/dispose.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/lib/xToolkit/xtime/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/lib/xToolkit/xtime/api.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/lib/xToolkit/xtime/xdatetime/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/lib/xToolkit/xtime/xdatetime/xdatetime.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/lib/xToolkit/xtoolkit/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/lib/xToolkit/xtoolkit/judgement.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/lib/xToolkit/xtoolkit/xtoolkit.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/xToolkit-0.0.37.tar.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xToolkit/xstring/xstring.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/xToolkit-0.0.11.tar.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/xToolkit-0.0.12.tar.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/xToolkit-0.0.13.tar.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/xToolkit-0.0.14.tar.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/xToolkit-0.0.15.tar.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/xToolkit-0.0.16.tar.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/xToolkit-0.0.17.tar.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/xToolkit-0.0.18.tar.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/xToolkit-0.0.19.tar.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/xToolkit-0.0.20.tar.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/xToolkit-0.0.21.tar.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/xToolkit-0.0.22.tar.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/xToolkit-0.0.23.tar.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/xToolkit-0.0.27.tar.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/xToolkit-0.0.28.tar.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/xToolkit-0.0.29.tar.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/xToolkit-0.0.30.tar.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/setup.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xToolkit.egg-info/PKG-INFO" beforeDir="false" afterPath="$PROJECT_DIR$/xToolkit.egg-info/PKG-INFO" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xToolkit.egg-info/SOURCES.txt" beforeDir="false" afterPath="$PROJECT_DIR$/xToolkit.egg-info/SOURCES.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bdist.linux-x86_64/wheel/xToolkit/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/build/bdist.linux-x86_64/wheel/xToolkit/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bdist.linux-x86_64/wheel/xToolkit/xtime/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/build/bdist.linux-x86_64/wheel/xToolkit/xtime/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/lib/xToolkit/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/build/lib/xToolkit/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/lib/xToolkit/xtime/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/build/lib/xToolkit/xtime/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_xtoolkit.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_xtoolkit.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/xToolkit/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/xToolkit/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xToolkit/xstring/api.py" beforeDir="false" afterPath="$PROJECT_DIR$/xToolkit/xstring/api.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xToolkit/xstring/check/check.py" beforeDir="false" afterPath="$PROJECT_DIR$/xToolkit/xstring/check/check.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xToolkit/xstring/dispose/dispose.py" beforeDir="false" afterPath="$PROJECT_DIR$/xToolkit/xstring/dispose/dispose.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xToolkit/xtime/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/xToolkit/xdatetime/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xToolkit/xtime/api.py" beforeDir="false" afterPath="$PROJECT_DIR$/xToolkit/xdatetime/api.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xToolkit/xtime/xdatetime/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/xToolkit/xdatetime/xdatetime/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xToolkit/xtime/xdatetime/xdatetime.py" beforeDir="false" afterPath="$PROJECT_DIR$/xToolkit/xdatetime/xdatetime/xdatetime.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xToolkit/xtoolkit/judgement.py" beforeDir="false" afterPath="$PROJECT_DIR$/xToolkit/xtoolkit/judgement.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -154,10 +75,10 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../WanBaoScience" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -172,7 +93,29 @@
     </key>
   </component>
   <component name="RunManager" selected="Python tests.pytest in test_xtoolkit.py">
-    <configuration name="pytest for test_xtoolkit.TestXstring" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="xToolkit" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_xtoolkit.TestXstringCheck" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="xToolkit" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -184,11 +127,11 @@
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_xtoolkit.TestXstring&quot;" />
+      <option name="_new_target" value="&quot;test_xtoolkit.TestXstringCheck&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_xtoolkit.TestXtime" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_xtoolkit.TestXstring.test_identity_card" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="xToolkit" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -200,11 +143,11 @@
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_xtoolkit.TestXtime&quot;" />
+      <option name="_new_target" value="&quot;test_xtoolkit.TestXstring.test_identity_card&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_xtoolkit.TestXtime.test_string_to_microsecond" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_xtoolkit.TestXstring.test_identity_card_get" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="xToolkit" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -216,23 +159,7 @@
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_xtoolkit.TestXtime.test_string_to_microsecond&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="pytest for test_xtoolkit.TestXtime.test_timestamp_beijing_datetime" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="xToolkit" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_xtoolkit.TestXtime.test_timestamp_beijing_datetime&quot;" />
+      <option name="_new_target" value="&quot;test_xtoolkit.TestXstring.test_identity_card_get&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -253,19 +180,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python tests.pytest for test_xtoolkit.TestXtime.test_string_to_microsecond" />
-      <item itemvalue="Python tests.pytest for test_xtoolkit.TestXtime" />
-      <item itemvalue="Python tests.pytest for test_xtoolkit.TestXstring" />
       <item itemvalue="Python tests.pytest in test_xtoolkit.py" />
-      <item itemvalue="Python tests.pytest for test_xtoolkit.TestXtime.test_timestamp_beijing_datetime" />
+      <item itemvalue="Python.test" />
+      <item itemvalue="Python tests.pytest for test_xtoolkit.TestXstring.test_identity_card_get" />
+      <item itemvalue="Python tests.pytest for test_xtoolkit.TestXstring.test_identity_card" />
+      <item itemvalue="Python tests.pytest for test_xtoolkit.TestXstringCheck" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python tests.pytest in test_xtoolkit.py" />
-        <item itemvalue="Python tests.pytest for test_xtoolkit.TestXtime.test_timestamp_beijing_datetime" />
-        <item itemvalue="Python tests.pytest for test_xtoolkit.TestXtime" />
-        <item itemvalue="Python tests.pytest for test_xtoolkit.TestXtime.test_string_to_microsecond" />
-        <item itemvalue="Python tests.pytest for test_xtoolkit.TestXstring" />
+        <item itemvalue="Python tests.pytest for test_xtoolkit.TestXstringCheck" />
+        <item itemvalue="Python tests.pytest for test_xtoolkit.TestXstring.test_identity_card" />
+        <item itemvalue="Python tests.pytest for test_xtoolkit.TestXstring.test_identity_card_get" />
+        <item itemvalue="Python.test" />
       </list>
     </recent_temporary>
   </component>
@@ -377,7 +304,8 @@
       <workItem from="1584749111269" duration="4984000" />
       <workItem from="1584762509441" duration="1013000" />
       <workItem from="1584773383866" duration="13270000" />
-      <workItem from="1584834564294" duration="4355000" />
+      <workItem from="1584834564294" duration="6298000" />
+      <workItem from="1584954745634" duration="7422000" />
     </task>
     <task id="LOCAL-00001" summary="测试文件发生了修改">
       <created>1566265195556</created>
@@ -477,7 +405,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584796266499</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="清楚掉老的安装包">
+      <created>1584839917048</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1584839917048</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -667,7 +602,8 @@
     <MESSAGE value="新增字符串模块" />
     <MESSAGE value="新增字符串处理模块" />
     <MESSAGE value="把格式判断类调整到总基类模块里面" />
-    <option name="LAST_COMMIT_MESSAGE" value="把格式判断类调整到总基类模块里面" />
+    <MESSAGE value="清楚掉老的安装包" />
+    <option name="LAST_COMMIT_MESSAGE" value="清楚掉老的安装包" />
   </component>
   <component name="WindowStateProjectService">
     <state x="534" y="178" key="#Deployment" timestamp="1584716551913">
@@ -686,34 +622,34 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584277946846" />
-    <state x="554" y="113" key="CommitChangelistDialog2" timestamp="1584796264182">
+    <state x="554" y="113" key="CommitChangelistDialog2" timestamp="1584839914736">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="554" y="113" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1584796264182" />
+    <state x="554" y="113" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1584839914736" />
     <state x="184" y="92" key="DiffContextDialog" timestamp="1584106254694">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="184" y="92" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584106254694" />
-    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1584763752006">
+    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1584963234437">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1584763752006" />
-    <state width="1899" height="553" key="GridCell.Tab.0.bottom" timestamp="1584798005443">
+    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1584963234437" />
+    <state width="1899" height="553" key="GridCell.Tab.0.bottom" timestamp="1584967284523">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="553" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1584798005443" />
-    <state width="1899" height="553" key="GridCell.Tab.0.center" timestamp="1584798005443">
+    <state width="1899" height="553" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1584967284523" />
+    <state width="1899" height="553" key="GridCell.Tab.0.center" timestamp="1584967284523">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="553" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1584798005443" />
-    <state width="1899" height="553" key="GridCell.Tab.0.left" timestamp="1584798005442">
+    <state width="1899" height="553" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1584967284523" />
+    <state width="1899" height="553" key="GridCell.Tab.0.left" timestamp="1584967284523">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="553" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1584798005442" />
-    <state width="1899" height="553" key="GridCell.Tab.0.right" timestamp="1584798005443">
+    <state width="1899" height="553" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1584967284523" />
+    <state width="1899" height="553" key="GridCell.Tab.0.right" timestamp="1584967284523">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="553" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1584798005443" />
+    <state width="1899" height="553" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1584967284523" />
     <state width="1899" height="348" key="GridCell.Tab.1.bottom" timestamp="1584491413879">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -734,10 +670,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="698" y="230" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584716571069" />
-    <state x="461" y="162" key="SettingsEditor" timestamp="1584437299333">
+    <state x="461" y="162" key="SettingsEditor" timestamp="1584845333731">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1584437299333" />
+    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1584845333731" />
     <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1584796321664">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -768,6 +704,8 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/xToolkit$xdatetime__1_.coverage" NAME="xdatetime (1) Coverage Results" MODIFIED="1584284590621" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/xToolkit/xdatetime" />
+    <SUITE FILE_PATH="coverage/xToolkit$pytest_for_test_xtoolkit_TestXstring_test_identity_card_get.coverage" NAME="pytest for test_xtoolkit.TestXstring.test_identity_card_get Coverage Results" MODIFIED="1584966699620" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/xToolkit$pytest_for_test_xtoolkit_TestXstringCheck.coverage" NAME="pytest for test_xtoolkit.TestXstringCheck Coverage Results" MODIFIED="1584967246025" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/xToolkit$api__1_.coverage" NAME="api (1) Coverage Results" MODIFIED="1584432381208" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/xToolkit" />
     <SUITE FILE_PATH="coverage/xToolkit$pytest_for_test_xtoolkit_TestXstring_test_car_number.coverage" NAME="pytest for test_xtoolkit.TestXstring.test_car_number Coverage Results" MODIFIED="1584450761678" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/xToolkit$pytest_for_test_xtoolkit_TestXtime_test_get_utc_now.coverage" NAME="pytest for test_xtoolkit.TestXtime.test_get_utc_now Coverage Results" MODIFIED="1584710525827" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -775,14 +713,14 @@
     <SUITE FILE_PATH="coverage/xToolkit$string.coverage" NAME="string Coverage Results" MODIFIED="1584405443831" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/xToolkit/string" />
     <SUITE FILE_PATH="coverage/xToolkit$xstring.coverage" NAME="xstring Coverage Results" MODIFIED="1584432126855" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/xToolkit/xstring" />
     <SUITE FILE_PATH="coverage/xToolkit$xdatetime.coverage" NAME="xdatetime Coverage Results" MODIFIED="1584281980885" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/xToolkit" />
-    <SUITE FILE_PATH="coverage/xToolkit$test.coverage" NAME="test Coverage Results" MODIFIED="1584775987161" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/xToolkit$test.coverage" NAME="test Coverage Results" MODIFIED="1584966457323" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/xToolkit$xtoolkit.coverage" NAME="xtoolkit Coverage Results" MODIFIED="1584280344524" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/xToolkit" />
     <SUITE FILE_PATH="coverage/xToolkit$pytest_for_test_xtoolkit_test_name.coverage" NAME="pytest for test_xtoolkit.test_name Coverage Results" MODIFIED="1584447250768" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/xToolkit$x_date_time.coverage" NAME="x_date_time Coverage Results" MODIFIED="1584174975782" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/xToolkit/x_date_time" />
     <SUITE FILE_PATH="coverage/xToolkit$pytest_for_test_xtoolkit_TestXstring.coverage" NAME="pytest for test_xtoolkit.TestXstring Coverage Results" MODIFIED="1584776146468" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/xToolkit$pytest_for_test_xtoolkit_TestXtime_test_get_now.coverage" NAME="pytest for test_xtoolkit.TestXtime.test_get_now Coverage Results" MODIFIED="1584629201289" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/xToolkit$x_toolkit.coverage" NAME="x_toolkit Coverage Results" MODIFIED="1584175024251" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/xToolkit/x_toolKit" />
-    <SUITE FILE_PATH="coverage/xToolkit$pytest_in_test_xtoolkit_py.coverage" NAME="pytest in test_xtoolkit.py Coverage Results" MODIFIED="1584796171995" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/xToolkit$pytest_in_test_xtoolkit_py.coverage" NAME="pytest in test_xtoolkit.py Coverage Results" MODIFIED="1584967275085" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/xToolkit$pytest_for_test_xtoolkit_TestXtime_test_string_to_datetime.coverage" NAME="pytest for test_xtoolkit.TestXtime.test_string_to_datetime Coverage Results" MODIFIED="1584776050706" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/xToolkit$pytest_for_test_xtoolkit_TestXtime_test_timestamp_utc_datetime.coverage" NAME="pytest for test_xtoolkit.TestXtime.test_timestamp_utc_datetime Coverage Results" MODIFIED="1584696549467" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/xToolkit$pytest_for_test_xtoolkit_test_car_number.coverage" NAME="pytest for test_xtoolkit.test_car_number Coverage Results" MODIFIED="1584447121006" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -799,6 +737,6 @@
     <SUITE FILE_PATH="coverage/xToolkit$__init____1_.coverage" NAME="__init__ (1) Coverage Results" MODIFIED="1584282566180" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/xToolkit/xtoolkit" />
     <SUITE FILE_PATH="coverage/xToolkit$api.coverage" NAME="api Coverage Results" MODIFIED="1584431146463" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/xToolkit/xstring" />
     <SUITE FILE_PATH="coverage/xToolkit$pytest_for_test_xtoolkit_TestXtime_test_timestamp_beijing_datetime.coverage" NAME="pytest for test_xtoolkit.TestXtime.test_timestamp_beijing_datetime Coverage Results" MODIFIED="1584796138387" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/xToolkit$pytest_for_test_xtoolkit_TestXstring_test_identity_card.coverage" NAME="pytest for test_xtoolkit.TestXstring.test_identity_card Coverage Results" MODIFIED="1584543048403" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/xToolkit$pytest_for_test_xtoolkit_TestXstring_test_identity_card.coverage" NAME="pytest for test_xtoolkit.TestXstring.test_identity_card Coverage Results" MODIFIED="1584966753837" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
