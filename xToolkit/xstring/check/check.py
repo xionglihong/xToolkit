@@ -14,12 +14,18 @@ import re
 # 字符串公共功能
 from ..xstring import BasicsFunction
 
+# 基类格式判断
+from xToolkit.xtoolkit.judgement import JudgeType
+
 
 # 校验模块
 class CheckData(object):
 
     def __init__(self, mark):
         self.__mark = mark
+
+        # 基类格式判断
+        self.judge = JudgeType
 
     # 正则表达式验证方法
     def __regular_expression(self, expression):
@@ -89,3 +95,66 @@ class CheckData(object):
         提供中国大陆身份证验证，暂时只支持效验18位身份证
         """
         return BasicsFunction(self.__mark).identity_card()
+
+    # 整形或浮点型
+    @property
+    def is_int_or_float(self):
+        return self.judge.is_timestamp(self.__mark)
+
+    # 时间字符串
+    @property
+    def is_datetime_string(self):
+        return self.judge.is_datetime_string(self.__mark)
+
+    # URL地址
+    @property
+    def is_url(self):
+        expression = "(https?|ftp|file)://[-A-Za-z0-9+&@#/%?=~_|!:,.;]+[-A-Za-z0-9+&@#/%=~_|]"
+        return self.__regular_expression(expression)
+
+    # 手机号
+    @property
+    def is_phone(self):
+        """
+        第一位为1，一共11位数字几个
+        """
+        expression = "^1\d{10}$"
+        return self.__regular_expression(expression)
+
+    # 银行卡
+    @property
+    def is_bank_number(self):
+        """
+        第一位不能为0,并且13到19位数字
+        """
+        expression = "^[1-9]\d{12,18}$"
+        return self.__regular_expression(expression)
+
+    # 用户姓名
+    @property
+    def is_user_name(self):
+        """
+        姓名要求为2-4个中文
+        """
+        expression = "^[\u4e00-\u9fa5]{2,4}$"
+        return self.__regular_expression(expression)
+
+    # 密码
+    @property
+    def is_user_password(self):
+        """
+        包含6-18位字符，必须包含字母与数字，可以包含特殊字符
+        """
+        expression = "^(?![0-9]+$)(?![a-zA-Z]+$)[0-9A-Za-z\\W]{6,18}$"
+        return self.__regular_expression(expression)
+
+    # 邮箱
+    @property
+    def is_mailbox(self):
+        """
+        第一种：只允许英文字母、数字、下划线、英文句号、以及中划线组成
+        第二种：名称允许汉字、字母、数字，域名只允许英文域名
+        二种中任何一种即可
+        """
+        expression = "^([a-zA-Z0-9_-]+@[a-zA-Z0-9_-]+(\.[a-zA-Z0-9_-]+)+)|([A-Za-z0-9\u4e00-\u9fa5]+@[a-zA-Z0-9_-]+(\.[a-zA-Z0-9_-]+)+)$"
+        return self.__regular_expression(expression)

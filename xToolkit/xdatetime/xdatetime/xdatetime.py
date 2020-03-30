@@ -174,6 +174,13 @@ class Space(object):
 
         return self._datetime.strftime(style)
 
+    # 输出 datetime 类型
+    def former_type(self):
+        """
+        输出datetime数据类型
+        """
+        return self._datetime
+
     # 时间戳转时间
     @classmethod
     def timestamp_to_time(cls, timestamp, tz=None):
@@ -201,3 +208,13 @@ class Space(object):
             return cls(dt.year, dt.month, dt.day, dt.hour, dt.minute, dt.second, dt.microsecond, dt.tzinfo)
         except ValueError:
             raise ValueError("解析时间字符串错误,解析表达式为: {} 时间字符串为: {}".format(matching, string))
+
+    # datetime转时间
+    @classmethod
+    def from_datetime(cls, dt):
+        return cls(dt.year, dt.month, dt.day, dt.hour, dt.minute, dt.second, dt.microsecond, dt.tzinfo)
+
+    # date转时间
+    @classmethod
+    def from_date(cls, dt):
+        return cls(dt.year, dt.month, dt.day)

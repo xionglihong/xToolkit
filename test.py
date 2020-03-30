@@ -8,22 +8,12 @@
 # @IDE     : PyCharm
 # @REMARKS : 直接测试xtoolkit库的各项模块
 
-
-# time_string = [['9999-03-17 12:14:12', "%Y-%m-%d %H:%M:%S"],
-#                ['12:14:12', "%H:%M:%S"],
-#                ]
-#
-# for key in time_string:
-#     print(datetime.strptime(key[0], key[1]))
-
-import arrow
-
-from xToolkit import VERSION, xstring, xtime
-
-# 系统时间库
-from datetime import datetime, tzinfo, timedelta
+from datetime import datetime, date
 
 from xToolkit.xdatetime.xdatetime.xdatetime import UTC8
 
+from xToolkit import xstring, xdatetime
+
 if __name__ == "__main__":
-    print(xstring.dispose("420117198807203114").get_identity_card(True))
+    a1 = xdatetime.shape("2020-03-20 22:09:06")
+    print(a1)

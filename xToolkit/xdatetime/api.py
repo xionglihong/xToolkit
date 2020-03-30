@@ -14,6 +14,9 @@ from ..xtoolkit import XToolkit
 # 时间模块基础功能
 from .xdatetime.xdatetime import Space
 
+# 系统时间库
+from datetime import datetime, date
+
 
 # 时间模块基类
 class XDateTime(XToolkit):
@@ -64,3 +67,22 @@ class XDateTime(XToolkit):
                 # 时间字符串解析
                 formatting = kwargs.get("formatting", None)
                 return self.limit.string_to_time(arg, formatting)
+
+            # datetime
+            elif isinstance(arg, datetime):
+                return self.limit.from_datetime(arg)
+
+            # date
+            elif isinstance(arg, date):
+                return self.limit.from_date(arg)
+
+    # shape 方法
+    def shape(self, *args, **kwargs):
+        """
+        判断字符串是否为时间字符串
+        """
+        if len(args) == 0:
+            raise ValueError("需要验证的字符串不能为空")
+        else:
+            arg = args[0]
+            return self.judge.is_datetime_string(arg)

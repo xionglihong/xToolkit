@@ -43,15 +43,13 @@ class JudgeType(object):
     # 时间字符串
     @staticmethod
     def is_datetime_string(value):
+        """
+        判断是否为时间字符串，包括类型 时间戳，时间字符串，xdatetime
+        """
         # 时间模块基础功能
         basic = BasicFunction()
 
-        # 判断是否为时间戳
-        if not JudgeType.is_timestamp(value):
+        if JudgeType.is_timestamp(value) or basic.datetime_string_true(value):
+            return True
+        else:
             return False
-
-        # 判断是否为时间字符串
-        if not basic.datetime_string_true(value):
-            return False
-
-        return True
