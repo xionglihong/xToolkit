@@ -11,6 +11,7 @@ from __future__ import absolute_import
 
 # 系统时间库
 from datetime import datetime, tzinfo, timedelta
+import time
 
 
 # 自定义时区
@@ -127,60 +128,6 @@ class Space(object):
         dt = datetime.now(tz=tz)
         return cls(dt.year, dt.month, dt.day, dt.hour, dt.minute, dt.second, dt.microsecond, dt.tzinfo)
 
-    # 时间格式化
-    def format(self, *args):
-        """
-        默认格式："%Y-%m-%d %H:%M:%S"
-
-        常用格式：
-            "%Y-%m-%dT%H:%M:%S.%f%z"
-
-
-        输出参数：
-            %y	两位数的年份表示（00-99）
-            %Y	四位数的年份表示（000-9999）
-            %m	月份（01-12）
-            %d	月内中的一天（0-31）
-            %H	24小时制小时数（0-23）
-            %I	12小时制小时数（01-12）
-            %M	分钟数（00=59）
-            %S	秒（00-59）
-            %f  毫秒
-            %a	本地简化星期名称
-            %A	本地完整星期名称
-            %b	本地简化的月份名称
-            %B	本地完整的月份名称
-            %c	本地相应的日期表示和时间表示
-            %j	年内的一天（001-366）
-            %p	本地A.M.或P.M.的等价符
-            %U	一年中的星期数（00-53）星期天为星期的开始
-            %w	星期（0-6），星期天为星期的开始
-            %W	一年中的星期数（00-53）星期一为星期的开始
-            %x	本地相应的日期表示
-            %X	本地相应的时间表示
-            %Z	当前时区的名称
-            %%	%号本身
-        """
-        arg = len(args)
-
-        style = "%Y-%m-%d %H:%M:%S"
-        # 根据args长度，设置输出格式style
-        if arg == 0:
-            style = "%Y-%m-%d %H:%M:%S"
-        elif arg == 1:
-            style = args[0]
-        elif arg >= 2:
-            raise ValueError("暂时只接受一个参数")
-
-        return self._datetime.strftime(style)
-
-    # 输出 datetime 类型
-    def former_type(self):
-        """
-        输出datetime数据类型
-        """
-        return self._datetime
-
     # 时间戳转时间
     @classmethod
     def timestamp_to_time(cls, timestamp, tz=None):
@@ -218,3 +165,103 @@ class Space(object):
     @classmethod
     def from_date(cls, dt):
         return cls(dt.year, dt.month, dt.day)
+
+    # 时间格式化
+    def format(self, *args):
+        """
+        默认格式："%Y-%m-%d %H:%M:%S"
+
+        常用格式：
+            "%Y-%m-%dT%H:%M:%S.%f%z"
+
+
+        输出参数：
+            %y	两位数的年份表示（00-99）
+            %Y	四位数的年份表示（000-9999）
+            %m	月份（01-12）
+            %d	月内中的一天（0-31）
+            %H	24小时制小时数（0-23）
+            %I	12小时制小时数（01-12）
+            %M	分钟数（00=59）
+            %S	秒（00-59）
+            %f  微秒
+            %a	本地简化星期名称
+            %A	本地完整星期名称
+            %b	本地简化的月份名称
+            %B	本地完整的月份名称
+            %c	本地相应的日期表示和时间表示
+            %j	年内的一天（001-366）
+            %p	本地A.M.或P.M.的等价符
+            %U	一年中的星期数（00-53）星期天为星期的开始
+            %w	星期（0-6），星期天为星期的开始
+            %W	一年中的星期数（00-53）星期一为星期的开始
+            %x	本地相应的日期表示
+            %X	本地相应的时间表示
+            %Z	当前时区的名称
+            %%	%号本身
+        """
+        arg = len(args)
+
+        style = "%Y-%m-%d %H:%M:%S"
+        # 根据args长度，设置输出格式style
+        if arg == 0:
+            style = "%Y-%m-%d %H:%M:%S"
+        elif arg == 1:
+            style = args[0]
+        elif arg >= 2:
+            raise ValueError("暂时只接受一个参数")
+
+        return self._datetime.strftime(style)
+
+    # 输出 datetime 类型
+    def former_type(self):
+        """
+        输出datetime数据类型
+        """
+        return self._datetime
+
+    # 时间戳
+    @property
+    def timestamp(self):
+        """
+        datetime 对象转时间戳
+        输出没有毫秒部分，如果要毫秒部分就用time.time()
+        """
+        return time.mktime(self._datetime.timetuple())
+
+    # 年
+    @property
+    def year(self):
+        return self._datetime.year
+
+    # 月
+    @property
+    def month(self):
+        return self._datetime.month
+
+    # 日
+    @property
+    def day(self):
+        return self._datetime.day
+
+    # 时
+    @property
+    def hour(self):
+        return self._datetime.hour
+
+    # 分
+    @property
+    def minute(self):
+        return self._datetime.minute
+
+    # 秒
+    @property
+    def second(self):
+        return self._datetime.second
+
+    # 微妙
+    @property
+    def microsecond(self):
+        return self._datetime.microsecond
+
+

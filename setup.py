@@ -26,7 +26,7 @@ setup(
     # 模块的关键词，使用空格分割
     keywords=("xToolkit", "xtoolkit", "x", "tool", "toolkit"),
     # 项目的简单描述：
-    description="此库从新封装了python下常用的数据类型，在内置模块的基础扩展了部分功能.",
+    description="xtoolkit从新封装了python下常用的数据类型，在内置模块的基础上扩展了部分功能.",
     # 单文件模块写法
     py_modules=[],
     # 项目详细描述
@@ -63,6 +63,6 @@ setup(
     packages=find_packages(),
     include_package_data=True,
     platforms="any",
-    # 依赖库
-    install_requires=["arrow>=0.13.2"]
+    # 依赖库(从0.0.39版本后，不在使用第三方库，全部使用系统默认库)
+    # install_requires=["arrow>=0.13.2"]
 )

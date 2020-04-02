@@ -17,6 +17,9 @@ from .xdatetime.xdatetime import Space
 # 系统时间库
 from datetime import datetime, date
 
+# 时区
+from .xdatetime.xdatetime import UTC8
+
 
 # 时间模块基类
 class XDateTime(XToolkit):
@@ -64,9 +67,16 @@ class XDateTime(XToolkit):
 
             # 字符串
             elif self.judge.is_string(arg):
-                # 时间字符串解析
-                formatting = kwargs.get("formatting", None)
-                return self.limit.string_to_time(arg, formatting)
+                # 时间字符串若满足时间戳，直接进行时间戳转时间处理
+                if self.judge.is_timestamp(arg):
+                    arg = self.judge.to_digital(arg)
+
+                    return self.limit.timestamp_to_time(arg, tz=kwargs.get("tz", None))
+                # 若不为时间戳格式，进行时间字符串解析
+                else:
+                    # 时间字符串解析
+                    formatting = kwargs.get("formatting", None)
+                    return self.limit.string_to_time(arg, formatting)
 
             # datetime
             elif isinstance(arg, datetime):
@@ -86,3 +96,8 @@ class XDateTime(XToolkit):
         else:
             arg = args[0]
             return self.judge.is_datetime_string(arg)
+
+    # 时区
+    @staticmethod
+    def utc8(*args, **kwargs):
+        return UTC8(hours=kwargs.get("hours", 8), minutes=kwargs.get("minutes", 0))

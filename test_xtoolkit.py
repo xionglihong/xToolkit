@@ -11,10 +11,8 @@ import pytest
 
 from xToolkit import xstring, xdatetime
 
-# 自定义时区
-from xToolkit.xdatetime.xdatetime.xdatetime import UTC8
-
 from datetime import datetime, date
+import time
 import arrow
 
 
@@ -148,19 +146,19 @@ class TestXDateTimeGet(object):
 
     # 获取UTC时间
     def test_get_utc_now(self):
-        assert xdatetime.get(tz=UTC8(hours=0, minutes=0)).format() == arrow.utcnow().format("YYYY-MM-DD HH:mm:ss")
+        assert xdatetime.get(tz=xdatetime.utc8(hours=0, minutes=0)).format() == arrow.utcnow().format("YYYY-MM-DD HH:mm:ss")
 
     timestamp_data = [1584689499.2525, 1584689499, 1584689499.252555, 1584689499.12457899999, 1584]
 
     # 时间戳转时间格式(UTC)
     @pytest.mark.parametrize("timestamp", timestamp_data)
     def test_timestamp_utc_datetime(self, timestamp):
-        assert xdatetime.get(timestamp, tz=UTC8(hours=0, minutes=0)).format() == arrow.get(timestamp).format("YYYY-MM-DD HH:mm:ss")
+        assert xdatetime.get(timestamp, tz=xdatetime.utc8(hours=0, minutes=0)).format() == arrow.get(timestamp).format("YYYY-MM-DD HH:mm:ss")
 
     # 时间戳转时间格式(北京时间)
     @pytest.mark.parametrize("timestamp", timestamp_data)
     def test_timestamp_beijing_datetime(self, timestamp):
-        assert xdatetime.get(timestamp).format() == arrow.get(timestamp, tzinfo=UTC8()).format("YYYY-MM-DD HH:mm:ss")
+        assert xdatetime.get(timestamp).format() == arrow.get(timestamp, tzinfo=xdatetime.utc8()).format("YYYY-MM-DD HH:mm:ss")
 
     all_datetime_string = [
         # 完整日期，时间，微秒，时区
@@ -179,12 +177,20 @@ class TestXDateTimeGet(object):
 
         # 微秒级时间
         ("15:22:56.252525", "%H:%M:%S.%f"),
+
     ]
 
     # 时间字符串转时间（完整日期，时间，微秒，时区）
     @pytest.mark.parametrize("all_datetime_string,formatting", all_datetime_string)
     def test_string_to_microsecond(self, all_datetime_string, formatting):
         assert xdatetime.get(all_datetime_string).format(formatting) == all_datetime_string
+
+    timestamp_string = [(1585609370, "2020-03-31 07:02:50"), ("1585609370", "2020-03-31 07:02:50")]
+
+    # 时间字符串转时间（时间戳）
+    @pytest.mark.parametrize("timestamp,result", timestamp_string)
+    def test_timestamp_to_microsecond(self, timestamp, result):
+        assert xdatetime.get(timestamp).format() == result
 
     datetime_to_time = [(datetime(2020, 3, 23, 21, 56, 12), "2020-03-23 21:56:12"), (datetime(2020, 3, 23), "2020-03-23 00:00:00")]
 
@@ -199,6 +205,38 @@ class TestXDateTimeGet(object):
     @pytest.mark.parametrize("get_date,result", date_to_time)
     def test_date_to_time(self, get_date, result):
         assert xdatetime.get(get_date).format() == result
+
+    # 获取时间戳
+    def test_get_timestamp(self):
+        assert int(xdatetime.get().timestamp) == int(time.time())
+
+    # 获取年
+    def test_get_year(self):
+        assert xdatetime.get().year == datetime.now().year
+
+    # 获取月
+    def test_get_month(self):
+        assert xdatetime.get().month == datetime.now().month
+
+    # 获取日
+    def test_get_day(self):
+        assert xdatetime.get().day == datetime.now().day
+
+    # 获取时
+    def test_get_hour(self):
+        assert xdatetime.get().hour == datetime.now().hour
+
+    # 获取分
+    def test_get_minute(self):
+        assert xdatetime.get().minute == datetime.now().minute
+
+    # 获取秒
+    def test_get_second(self):
+        assert xdatetime.get().second == datetime.now().second
+
+    # 获取毫秒
+    def test_get_microsecond(self):
+        assert xdatetime.get().microsecond == datetime.now().microsecond
 
 
 # 时间模块shape方法

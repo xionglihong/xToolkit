@@ -53,3 +53,30 @@ class JudgeType(object):
             return True
         else:
             return False
+
+    # 转换为整形或者浮点型
+    @staticmethod
+    def is_digital(value):
+        """
+        判断传入是否为数字，包括整形或者浮点型
+        """
+        return JudgeType.is_timestamp(value)
+
+    # 转换为整形或者浮点型
+    @staticmethod
+    def to_digital(value):
+        """
+        传入的值必须为浮点型或者整形字符串或者数字，若为浮点型返回浮点型，若为整形返回整形
+        """
+        value = str(value)
+
+        # 判断是否为浮点型或者整形
+        if not JudgeType.is_digital(value):
+            raise ValueError("传入的值必须为浮点型或者整形字符串或者数字")
+
+        if "." in value:
+            result = float(value)
+        else:
+            result = int(value)
+
+        return result
