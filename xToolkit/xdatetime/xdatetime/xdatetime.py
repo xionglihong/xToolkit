@@ -13,6 +13,9 @@ from __future__ import absolute_import
 from datetime import datetime, tzinfo, timedelta
 import time
 
+# 时间推移
+from dateutil.relativedelta import *
+
 
 # 自定义时区
 class UTC8(tzinfo):
@@ -130,13 +133,13 @@ class Space(object):
 
     # 时间戳转时间
     @classmethod
-    def timestamp_to_time(cls, timestamp, tz=None):
+    def timestamp_to_space(cls, timestamp, tz=None):
         dt = datetime.fromtimestamp(timestamp, tz=UTC8() if not tz else tz)
         return cls(dt.year, dt.month, dt.day, dt.hour, dt.minute, dt.second, dt.microsecond, dt.tzinfo)
 
     # 字符串转时间
     @classmethod
-    def string_to_time(cls, string, formatting=None):
+    def string_to_space(cls, string, formatting=None):
         """
         formatting不为空时，利用传入格式解析时间字符串，若为空则尝试从模板库解析时间字符串
         """
@@ -158,12 +161,12 @@ class Space(object):
 
     # datetime转时间
     @classmethod
-    def from_datetime(cls, dt):
+    def datetime_to_space(cls, dt):
         return cls(dt.year, dt.month, dt.day, dt.hour, dt.minute, dt.second, dt.microsecond, dt.tzinfo)
 
     # date转时间
     @classmethod
-    def from_date(cls, dt):
+    def date_to_space(cls, dt):
         return cls(dt.year, dt.month, dt.day)
 
     # 时间格式化
@@ -264,4 +267,33 @@ class Space(object):
     def microsecond(self):
         return self._datetime.microsecond
 
+    # 时间推移
+    def shift(self, **kwargs):
+        """
+        参数:
+        years 年
+        months 月
+        days 日
+        weeks 周
+        hours 时
+        minutes 分
+        seconds 秒
+        microseconds 微妙
+        """
+        dt = self._datetime + relativedelta(**kwargs)
+        return self.datetime_to_space(dt)
 
+    # 时间替换
+    def replace(self, **kwargs):
+        """
+        参数:
+            year 年
+            month 月
+            day 日
+            hour 时
+            minute 分
+            second 秒
+            microsecond 微妙
+        """
+        dt = self._datetime.replace(**kwargs)
+        return self.datetime_to_space(dt)

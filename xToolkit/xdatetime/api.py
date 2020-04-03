@@ -63,7 +63,7 @@ class XDateTime(XToolkit):
             # 时间戳(int,float)
             if not self.judge.is_string(arg) and self.judge.is_timestamp(arg):
                 # 时区的默认值为 None
-                return self.limit.timestamp_to_time(arg, tz=kwargs.get("tz", None))
+                return self.limit.timestamp_to_space(arg, tz=kwargs.get("tz", None))
 
             # 字符串
             elif self.judge.is_string(arg):
@@ -71,20 +71,20 @@ class XDateTime(XToolkit):
                 if self.judge.is_timestamp(arg):
                     arg = self.judge.to_digital(arg)
 
-                    return self.limit.timestamp_to_time(arg, tz=kwargs.get("tz", None))
+                    return self.limit.timestamp_to_space(arg, tz=kwargs.get("tz", None))
                 # 若不为时间戳格式，进行时间字符串解析
                 else:
                     # 时间字符串解析
                     formatting = kwargs.get("formatting", None)
-                    return self.limit.string_to_time(arg, formatting)
+                    return self.limit.string_to_space(arg, formatting)
 
             # datetime
             elif isinstance(arg, datetime):
-                return self.limit.from_datetime(arg)
+                return self.limit.datetime_to_space(arg)
 
             # date
             elif isinstance(arg, date):
-                return self.limit.from_date(arg)
+                return self.limit.date_to_space(arg)
 
     # shape 方法
     def shape(self, *args, **kwargs):

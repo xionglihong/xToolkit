@@ -238,6 +238,35 @@ class TestXDateTimeGet(object):
     def test_get_microsecond(self):
         assert xdatetime.get().microsecond == datetime.now().microsecond
 
+    get_shift = [(xdatetime.get().shift(years=1), arrow.now().shift(years=1)),
+                 (xdatetime.get().shift(months=1), arrow.now().shift(months=1)),
+                 (xdatetime.get().shift(days=1), arrow.now().shift(days=1)),
+                 (xdatetime.get().shift(hours=1), arrow.now().shift(hours=1)),
+                 (xdatetime.get().shift(minutes=1), arrow.now().shift(minutes=1)),
+                 (xdatetime.get().shift(seconds=1), arrow.now().shift(seconds=1)),
+                 (xdatetime.get().shift(microseconds=1), arrow.now().shift(microseconds=1)),
+                 (xdatetime.get().shift(weeks=1), arrow.now().shift(weeks=1)),
+                 ]
+
+    # 时间推移
+    @pytest.mark.parametrize("get_shift,arrow_shift", get_shift)
+    def test_get_shift(self, get_shift, arrow_shift):
+        assert get_shift.format() == arrow_shift.format("YYYY-MM-DD HH:mm:ss")
+
+    get_replace = [(xdatetime.get().replace(year=2015), arrow.now().replace(year=2015)),
+                   (xdatetime.get().replace(month=1), arrow.now().replace(month=1)),
+                   (xdatetime.get().replace(day=1), arrow.now().replace(day=1)),
+                   (xdatetime.get().replace(hour=1), arrow.now().replace(hour=1)),
+                   (xdatetime.get().replace(minute=1), arrow.now().replace(minute=1)),
+                   (xdatetime.get().replace(second=1), arrow.now().replace(second=1)),
+                   (xdatetime.get().replace(microsecond=1), arrow.now().replace(microsecond=1)),
+                   ]
+
+    # 时间替换
+    @pytest.mark.parametrize("get_replace,arrow_replace", get_replace)
+    def test_get_replace(self, get_replace, arrow_replace):
+        assert get_replace.format() == arrow_replace.format("YYYY-MM-DD HH:mm:ss")
+
 
 # 时间模块shape方法
 class TestXDateTimeShape(object):

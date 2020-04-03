@@ -63,6 +63,6 @@ setup(
     packages=find_packages(),
     include_package_data=True,
     platforms="any",
-    # 依赖库(从0.0.39版本后，不在使用第三方库，全部使用系统默认库)
-    # install_requires=["arrow>=0.13.2"]
+    # 依赖库，格式为 arrow 或者 arrow>=0.13.2
+    install_requires=["python-dateutil", ]
 )

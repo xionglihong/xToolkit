@@ -18,19 +18,6 @@ from xToolkit.xdatetime.xdatetime.xdatetime import UTC8
 from xToolkit import xstring, xdatetime
 
 if __name__ == "__main__":
-    print(xdatetime.get().timestamp)
-    print(xdatetime.get("2020-04-02 21:26:54").timestamp)
+    a=xdatetime.get().replace(year=2018)
 
-    print(xdatetime.get().year)
-    print(xdatetime.get().month)
-    print(xdatetime.get().day)
-    print(xdatetime.get().hour)
-    print(xdatetime.get().minute)
-    print(xdatetime.get().second)
-    print(xdatetime.get().microsecond)
-
-
-
-
-
-
+    print(a)
