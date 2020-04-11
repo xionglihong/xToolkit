@@ -1,12 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2ee7d59e-0f52-47cc-a065-12ecfe2afbd8" name="Default Changelist" comment="">
+    <list default="true" id="2ee7d59e-0f52-47cc-a065-12ecfe2afbd8" name="Default Changelist" comment="新增 时间推移与时间替换功能">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/Activate.ps1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/activate" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/activate.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/deactivate.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/python.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/pythonw.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyvenv.cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/setup.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_xtoolkit.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_xtoolkit.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xToolkit/xdatetime/api.py" beforeDir="false" afterPath="$PROJECT_DIR$/xToolkit/xdatetime/api.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/xToolkit.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/xToolkit.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/xToolkit/xdatetime/xdatetime/xdatetime.py" beforeDir="false" afterPath="$PROJECT_DIR$/xToolkit/xdatetime/xdatetime/xdatetime.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -64,10 +70,10 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../WanBaoScience" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Test" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.file-colors" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -81,7 +87,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.test">
+  <component name="RunManager" selected="Python tests.pytest in test_xtoolkit.py">
     <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="xToolkit" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -177,8 +183,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.test" />
         <item itemvalue="Python tests.pytest in test_xtoolkit.py" />
+        <item itemvalue="Python.test" />
         <item itemvalue="Python tests.pytest for test_xtoolkit.TestXDateTimeGet.test_get_shift" />
         <item itemvalue="Python tests.pytest for test_xtoolkit.TestXDateTimeGet.test_get_replace" />
         <item itemvalue="Python tests.pytest for test_xtoolkit.TestXDateTimeGet.test_get_microsecond" />
@@ -302,7 +308,14 @@
       <workItem from="1585555613176" duration="24684000" />
       <workItem from="1585662231872" duration="308000" />
       <workItem from="1585828973463" duration="7180000" />
-      <workItem from="1585870404614" duration="21120000" />
+      <workItem from="1585870404614" duration="21844000" />
+      <workItem from="1585961943367" duration="10000" />
+      <workItem from="1586351660111" duration="12000" />
+      <workItem from="1586431945172" duration="34000" />
+      <workItem from="1586525527106" duration="120000" />
+      <workItem from="1586525681140" duration="13000" />
+      <workItem from="1586526029550" duration="983000" />
+      <workItem from="1586596488691" duration="2179000" />
     </task>
     <task id="LOCAL-00001" summary="测试文件发生了修改">
       <created>1566265195556</created>
@@ -430,7 +443,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585834935293</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="新增 时间推移与时间替换功能">
+      <created>1585920597315</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1585920597315</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -624,7 +644,8 @@
     <MESSAGE value="新增字符串基本处理模块" />
     <MESSAGE value="完成了整个库的基本版本" />
     <MESSAGE value="加入了 获取年月日时分秒功能" />
-    <option name="LAST_COMMIT_MESSAGE" value="加入了 获取年月日时分秒功能" />
+    <MESSAGE value="新增 时间推移与时间替换功能" />
+    <option name="LAST_COMMIT_MESSAGE" value="新增 时间推移与时间替换功能" />
   </component>
   <component name="WindowStateProjectService">
     <state x="534" y="178" key="#Deployment" timestamp="1584716551913">
@@ -643,34 +664,34 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584277946846" />
-    <state x="554" y="113" key="CommitChangelistDialog2" timestamp="1585834933058">
+    <state x="554" y="113" key="CommitChangelistDialog2" timestamp="1586525537612">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="554" y="113" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1585834933058" />
+    <state x="554" y="113" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1586525537612" />
     <state x="184" y="92" key="DiffContextDialog" timestamp="1584106254694">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="184" y="92" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584106254694" />
-    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1585884377317">
+    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1586597231810">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1585884377317" />
-    <state width="762" height="912" key="GridCell.Tab.0.bottom" timestamp="1585920560657">
+    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1586597231810" />
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1586615893333">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="762" height="912" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1585920560657" />
-    <state width="762" height="912" key="GridCell.Tab.0.center" timestamp="1585920560657">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586615893333" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1586615893333">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="762" height="912" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1585920560657" />
-    <state width="762" height="912" key="GridCell.Tab.0.left" timestamp="1585920560657">
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586615893333" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1586615893332">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="762" height="912" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1585920560657" />
-    <state width="762" height="912" key="GridCell.Tab.0.right" timestamp="1585920560657">
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586615893332" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1586615893333">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="762" height="912" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1585920560657" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586615893333" />
     <state width="1899" height="348" key="GridCell.Tab.1.bottom" timestamp="1584491413879">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -691,18 +712,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="698" y="230" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584716571069" />
-    <state x="461" y="162" key="SettingsEditor" timestamp="1585835076536">
+    <state x="461" y="162" key="SettingsEditor" timestamp="1586596515570">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1585835076536" />
+    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1586596515570" />
     <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1585570804798">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1585570804798" />
-    <state x="640" y="342" key="com.intellij.ide.util.TipDialog" timestamp="1585870406895">
+    <state x="640" y="342" key="com.intellij.ide.util.TipDialog" timestamp="1586596490408">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="640" y="342" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1585870406895" />
+    <state x="640" y="342" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586596490408" />
     <state x="752" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1584286211301">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -742,7 +763,7 @@
     <SUITE FILE_PATH="coverage/xToolkit$x_date_time.coverage" NAME="x_date_time Coverage Results" MODIFIED="1584174975782" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/xToolkit/x_date_time" />
     <SUITE FILE_PATH="coverage/xToolkit$pytest_for_test_xtoolkit_TestXstring.coverage" NAME="pytest for test_xtoolkit.TestXstring Coverage Results" MODIFIED="1584776146468" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/xToolkit$pytest_for_test_xtoolkit_TestXtime_test_get_now.coverage" NAME="pytest for test_xtoolkit.TestXtime.test_get_now Coverage Results" MODIFIED="1584629201289" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/xToolkit$pytest_in_test_xtoolkit_py.coverage" NAME="pytest in test_xtoolkit.py Coverage Results" MODIFIED="1585919050213" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/xToolkit$pytest_in_test_xtoolkit_py.coverage" NAME="pytest in test_xtoolkit.py Coverage Results" MODIFIED="1586615879639" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/xToolkit$pytest_for_test_xtoolkit_TestXDateTimeGet_test_get_hour.coverage" NAME="pytest for test_xtoolkit.TestXDateTimeGet.test_get_hour Coverage Results" MODIFIED="1585833499884" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/xToolkit$pytest_for_test_xtoolkit_TestXtime_test_string_to_datetime.coverage" NAME="pytest for test_xtoolkit.TestXtime.test_string_to_datetime Coverage Results" MODIFIED="1584776050706" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/xToolkit$pytest_for_test_xtoolkit_TestXDateTimeShape.coverage" NAME="pytest for test_xtoolkit.TestXDateTimeShape Coverage Results" MODIFIED="1585059243643" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />

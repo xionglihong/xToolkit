@@ -13,9 +13,7 @@ from __future__ import absolute_import
 from datetime import datetime, tzinfo, timedelta
 import time
 
-# 时间推移
-from dateutil.relativedelta import *
-
+from dateutil.relativedelta import *  # 时间推移
 
 # 自定义时区
 class UTC8(tzinfo):
