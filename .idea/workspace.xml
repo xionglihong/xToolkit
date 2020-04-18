@@ -7,6 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2ee7d59e-0f52-47cc-a065-12ecfe2afbd8" name="Default Changelist" comment="修改时间字符串解析方法">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -64,10 +65,11 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="add_unversioned_files" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -319,7 +321,8 @@
       <workItem from="1586616263050" duration="22000" />
       <workItem from="1586872262475" duration="11000" />
       <workItem from="1587040863711" duration="5532000" />
-      <workItem from="1587214433755" duration="1774000" />
+      <workItem from="1587214433755" duration="2066000" />
+      <workItem from="1587216532579" duration="237000" />
     </task>
     <task id="LOCAL-00001" summary="测试文件发生了修改">
       <created>1566265195556</created>
@@ -475,7 +478,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587214595580</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="修改时间字符串解析方法">
+      <created>1587216346440</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1587216346440</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -695,10 +705,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584277946846" />
-    <state x="554" y="113" key="CommitChangelistDialog2" timestamp="1587216313743">
+    <state x="554" y="113" key="CommitChangelistDialog2" timestamp="1587216778117">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="554" y="113" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1587216313743" />
+    <state x="554" y="113" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1587216778117" />
     <state x="184" y="92" key="DiffContextDialog" timestamp="1584106254694">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -707,22 +717,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1587215502200" />
-    <state width="1899" height="282" key="GridCell.Tab.0.bottom" timestamp="1587216321851">
+    <state width="1899" height="282" key="GridCell.Tab.0.bottom" timestamp="1587216506028">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1587216321851" />
-    <state width="1899" height="282" key="GridCell.Tab.0.center" timestamp="1587216321851">
+    <state width="1899" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1587216506028" />
+    <state width="1899" height="282" key="GridCell.Tab.0.center" timestamp="1587216506027">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1587216321851" />
-    <state width="1899" height="282" key="GridCell.Tab.0.left" timestamp="1587216321851">
+    <state width="1899" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1587216506027" />
+    <state width="1899" height="282" key="GridCell.Tab.0.left" timestamp="1587216506027">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1587216321851" />
-    <state width="1899" height="282" key="GridCell.Tab.0.right" timestamp="1587216321851">
+    <state width="1899" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1587216506027" />
+    <state width="1899" height="282" key="GridCell.Tab.0.right" timestamp="1587216506027">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1587216321851" />
+    <state width="1899" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1587216506027" />
     <state width="1899" height="348" key="GridCell.Tab.1.bottom" timestamp="1584491413879">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -743,18 +753,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="698" y="230" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586616219866" />
-    <state x="461" y="162" key="SettingsEditor" timestamp="1587214471725">
+    <state x="461" y="162" key="SettingsEditor" timestamp="1587216501597">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1587214471725" />
+    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1587216501597" />
     <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1587215701924">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1587215701924" />
-    <state x="640" y="342" key="com.intellij.ide.util.TipDialog" timestamp="1587214435126">
+    <state x="640" y="342" key="com.intellij.ide.util.TipDialog" timestamp="1587216532493">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="640" y="342" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1587214435126" />
+    <state x="640" y="342" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1587216532493" />
     <state x="752" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1586616211412">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -798,7 +808,7 @@
     <SUITE FILE_PATH="coverage/xToolkit$x_date_time.coverage" NAME="x_date_time Coverage Results" MODIFIED="1584174975782" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/xToolkit/x_date_time" />
     <SUITE FILE_PATH="coverage/xToolkit$pytest_for_test_xtoolkit_TestXstring.coverage" NAME="pytest for test_xtoolkit.TestXstring Coverage Results" MODIFIED="1584776146468" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/xToolkit$pytest_for_test_xtoolkit_TestXtime_test_get_now.coverage" NAME="pytest for test_xtoolkit.TestXtime.test_get_now Coverage Results" MODIFIED="1584629201289" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/xToolkit$pytest_in_test_xtoolkit_py.coverage" NAME="pytest in test_xtoolkit.py Coverage Results" MODIFIED="1587216335306" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/xToolkit$pytest_in_test_xtoolkit_py.coverage" NAME="pytest in test_xtoolkit.py Coverage Results" MODIFIED="1587216348848" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/xToolkit$pytest_for_test_xtoolkit_TestXDateTimeGet_test_get_hour.coverage" NAME="pytest for test_xtoolkit.TestXDateTimeGet.test_get_hour Coverage Results" MODIFIED="1585833499884" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/xToolkit$pytest_for_test_xtoolkit_TestXtime_test_string_to_datetime.coverage" NAME="pytest for test_xtoolkit.TestXtime.test_string_to_datetime Coverage Results" MODIFIED="1584776050706" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/xToolkit$pytest_for_test_xtoolkit_TestXDateTimeShape.coverage" NAME="pytest for test_xtoolkit.TestXDateTimeShape Coverage Results" MODIFIED="1585059243643" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
