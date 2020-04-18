@@ -9,6 +9,7 @@
 # @REMARKS : 直接测试xtoolkit库的各项模块
 
 import arrow
+from dateutil.parser import parse  # 时间字符串解析
 
 from datetime import datetime, date
 import time
@@ -18,6 +19,6 @@ from xToolkit.xdatetime.xdatetime.xdatetime import UTC8
 from xToolkit import xstring, xdatetime
 
 if __name__ == "__main__":
-    a=xdatetime.get().replace(year=2018)
+    a=parse("20150704kkkk")
 
     print(a)

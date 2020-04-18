@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: xToolkit
-Version: 0.0.40
+Version: 0.0.41
 Summary: xtoolkit从新封装了python下常用的数据类型，在内置模块的基础上扩展了部分功能.
 Home-page: https://github.com/xionglihong/xToolkit
 Author: xionglihong
@@ -70,10 +70,10 @@ Description: xToolkit是python内置库的一个扩展库.把python的datetime,s
         xdatetime.get("2020-03-20T22:09:06.252525+0800").format()
         >>2020-03-20 22:09:06
         ```
-        #####多线程带参数的案例：
+        ##### 多线程带参数的案例
         ```
-        #定义三个函数，用于测试
-        #每个函数各自停顿一段时间，表示运算耗时
+        # 定义三个函数，用于测试
+        # 每个函数各自停顿一段时间，表示运算耗时
         def fib(arguments):
         	sleep(2)
         	return "0"
@@ -96,7 +96,7 @@ Description: xToolkit是python内置库的一个扩展库.把python的datetime,s
         ```
         _更多实例请参照参考文档 https://www.showdoc.cc/xToolkit?page_id=2133295307421808_
         
-        #####更新说明：
+        ##### 更新说明：
         2019年05年10日　V0.0.10 
         - 上线并新增获取当前时间功能
         

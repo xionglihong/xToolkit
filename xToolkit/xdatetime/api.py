@@ -75,8 +75,7 @@ class XDateTime(XToolkit):
                 # 若不为时间戳格式，进行时间字符串解析
                 else:
                     # 时间字符串解析
-                    formatting = kwargs.get("formatting", None)
-                    return self.limit.string_to_space(arg, formatting)
+                    return self.limit.string_to_space(arg)
 
             # datetime
             elif isinstance(arg, datetime):

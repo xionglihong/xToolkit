@@ -13,7 +13,10 @@ from __future__ import absolute_import
 from datetime import datetime, tzinfo, timedelta
 import time
 
-from dateutil.relativedelta import *  # 时间推移
+# 第三方时间模块
+from dateutil.relativedelta import relativedelta  # 时间推移
+from dateutil.parser import parse  # 时间字符串解析
+
 
 # 自定义时区
 class UTC8(tzinfo):
@@ -43,62 +46,15 @@ class BasicFunction(object):
     时间模块的一些基础功能
     """
 
-    # 时间字符串效验
-    @staticmethod
-    def __datetime_string(string):
-
-        # 时间字符串解析模板
-        matching = ""
-
-        # 记录是否存在日期部分
-        is_have_date = 0
-
-        # 日期部分
-        if "-" in string:
-            matching += "%Y-%m-%d"
-
-            is_have_date = 1
-        elif "/" in string:
-            matching += "%Y/%m/%d"
-
-            is_have_date = 1
-        elif string.count(".") == 2 or string.count(".") == 3:
-            matching += "%Y.%m.%d"
-
-            is_have_date = 1
-
-        # 时间部分
-        if ":" in string:
-            if "T" in string:
-                matching += "T%H:%M:%S"
-            else:
-                if is_have_date:
-                    matching += " %H:%M:%S"
-                else:
-                    matching += "%H:%M:%S"
-        # 微妙部分
-        if string.count(".") == 3 or string.count(".") == 1:
-            matching += ".%f"
-
-        # 时区部分
-        if "+" in string or string.count("-") == 3:
-            matching += "%z"
-
-        return matching
-
     # 时间字符串效验->(true,false)
-    def datetime_string_true(self, string):
-        matching = self.__datetime_string(string)
+    @staticmethod
+    def datetime_string_true(string):
 
         try:
-            datetime.strptime(string, matching)
+            parse(string)
             return True
         except ValueError:
             return False
-
-    # 时间字符串效验->字符串解析模板
-    def datetime_string_template(self, string):
-        return self.__datetime_string(string)
 
 
 # 基础功能
@@ -135,27 +91,18 @@ class Space(object):
         dt = datetime.fromtimestamp(timestamp, tz=UTC8() if not tz else tz)
         return cls(dt.year, dt.month, dt.day, dt.hour, dt.minute, dt.second, dt.microsecond, dt.tzinfo)
 
-    # 字符串转时间
+    # 时间字符串转时间
     @classmethod
-    def string_to_space(cls, string, formatting=None):
+    def string_to_space(cls, string):
         """
-        formatting不为空时，利用传入格式解析时间字符串，若为空则尝试从模板库解析时间字符串
+        时间字符串解析
         """
-
-        if formatting:
-            matching = formatting
-        else:
-            # 时间模块基础功能
-            basic = BasicFunction()
-
-            # 时间字符串解析模块
-            matching = basic.datetime_string_template(string)
-
         try:
-            dt = datetime.strptime(string, matching)
+            # 利用parse 进行时间字符串解析
+            dt = parse(string)
             return cls(dt.year, dt.month, dt.day, dt.hour, dt.minute, dt.second, dt.microsecond, dt.tzinfo)
         except ValueError:
-            raise ValueError("解析时间字符串错误,解析表达式为: {} 时间字符串为: {}".format(matching, string))
+            raise ValueError("时间字符串解析错误,解析错误的字符串为 {}".format(string))
 
     # datetime转时间
     @classmethod
@@ -167,7 +114,7 @@ class Space(object):
     def date_to_space(cls, dt):
         return cls(dt.year, dt.month, dt.day)
 
-    # 时间格式化
+    # 时间格式化输出
     def format(self, *args):
         """
         默认格式："%Y-%m-%d %H:%M:%S"
