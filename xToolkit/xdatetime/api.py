@@ -12,7 +12,7 @@
 from ..xtoolkit import XToolkit
 
 # 时间模块基础功能
-from .xdatetime.xdatetime import Space
+from .xdatetime.xdatetime import Space, Compare
 
 # 系统时间库
 from datetime import datetime, date
@@ -32,6 +32,9 @@ class XDateTime(XToolkit):
         # 指向时间基类
         self.limit = Space
 
+        # 指向时间比较类
+        self.compare = Compare
+
     # get 方法
     def get(self, *args, **kwargs):
 
@@ -44,7 +47,6 @@ class XDateTime(XToolkit):
 
         kwargs：
             tz：表示时区
-            formatting：时间字符串解析
         """
         args_count = len(args)
 
@@ -84,6 +86,12 @@ class XDateTime(XToolkit):
             # date
             elif isinstance(arg, date):
                 return self.limit.date_to_space(arg)
+
+        # 参数为二个
+        elif args_count == 2:
+            start, end = args[0], args[1]
+
+            return self.compare(start, end)
 
     # shape 方法
     def shape(self, *args, **kwargs):

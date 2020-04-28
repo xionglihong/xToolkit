@@ -268,6 +268,15 @@ class TestXDateTimeGet(object):
     def test_get_replace(self, get_replace, arrow_replace):
         assert get_replace.format() == arrow_replace.format("YYYY-MM-DD HH:mm:ss")
 
+    get_how = [("2020-04-28 10:52:52", "1988-07-20 17:31:12", 1002648100),
+               ("1999-04-28 11:54:56", "2020-04-28 11:57:01", -662774525)
+               ]
+
+    # 时间比较
+    @pytest.mark.parametrize("start,end,hows", get_how)
+    def test_get_compare(self, start, end, hows):
+        assert xdatetime.get(start, end).how == hows
+
 
 # 时间模块shape方法
 class TestXDateTimeShape(object):

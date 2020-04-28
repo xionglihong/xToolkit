@@ -56,6 +56,11 @@ class BasicFunction(object):
         except ValueError:
             return False
 
+    # 时间转时间戳
+    @staticmethod
+    def datetime_to_timestamp(times):
+        return time.mktime(times.timetuple())
+
 
 # 基础功能
 class Space(object):
@@ -98,7 +103,7 @@ class Space(object):
         时间字符串解析
         """
         try:
-            # 利用parse 进行时间字符串解析
+            # 利用parse进行时间字符串解析
             dt = parse(string)
             return cls(dt.year, dt.month, dt.day, dt.hour, dt.minute, dt.second, dt.microsecond, dt.tzinfo)
         except ValueError:
@@ -242,3 +247,26 @@ class Space(object):
         """
         dt = self._datetime.replace(**kwargs)
         return self.datetime_to_space(dt)
+
+
+# 时间比较类
+class Compare(object):
+    """
+    进行二个时间的比较操作
+    """
+
+    def __init__(self, *args, **kwargs):
+        self.start = args[0]  # 开始时间
+        self.end = args[1]  # 结束时间
+
+    def __str__(self):
+        return "{}/{}".format(self.start, self.end)
+
+    # 比较二个时间的差值，返回秒值
+    @property
+    def how(self):
+        start = parse(self.start)
+        end = parse(self.end)
+
+        how = BasicFunction.datetime_to_timestamp(start) - BasicFunction.datetime_to_timestamp(end)
+        return int(how)
