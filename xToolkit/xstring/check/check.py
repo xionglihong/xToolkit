@@ -118,7 +118,7 @@ class CheckData(object):
         """
         第一位为1，一共11位数字几个
         """
-        expression = "^1\d{10}$"
+        expression = "^1\\d{10}$"
         return self.__regular_expression(expression)
 
     # 银行卡
@@ -127,7 +127,7 @@ class CheckData(object):
         """
         第一位不能为0,并且13到19位数字
         """
-        expression = "^[1-9]\d{12,18}$"
+        expression = "^[1-9]\\d{12,18}$"
         return self.__regular_expression(expression)
 
     # 用户姓名
@@ -156,5 +156,5 @@ class CheckData(object):
         第二种：名称允许汉字、字母、数字，域名只允许英文域名
         二种中任何一种即可
         """
-        expression = "^([a-zA-Z0-9_-]+@[a-zA-Z0-9_-]+(\.[a-zA-Z0-9_-]+)+)|([A-Za-z0-9\u4e00-\u9fa5]+@[a-zA-Z0-9_-]+(\.[a-zA-Z0-9_-]+)+)$"
+        expression = "^([a-zA-Z0-9_-]+@[a-zA-Z0-9_-]+(\\.[a-zA-Z0-9_-]+)+)|([A-Za-z0-9\u4e00-\u9fa5]+@[a-zA-Z0-9_-]+(\\.[a-zA-Z0-9_-]+)+)$"
         return self.__regular_expression(expression)

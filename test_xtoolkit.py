@@ -130,6 +130,7 @@ class TestXstringDispose(object):
                           ("421122199407295870", {'code': '0001', 'msg': '效验码综合验证失败', 'data': None}),
                           ("422421496711236820", {'code': '0001', 'msg': '效验码综合验证失败', 'data': None}),
                           ("420117198807203114", {'code': '0000', 'data': {'birthday': '1988-07-20', 'gender': '男'}, 'msg': '身份证格式正确'}),
+                          ("421102197311291626", {'code': '0000', 'data': {'birthday': '1973-11-29', 'gender': '女'}, 'msg': '身份证格式正确'}),
                           ("40098419911025661X", {'code': '0001', 'msg': '效验码综合验证失败', 'data': None})]
 
     @pytest.mark.parametrize("identity,result", identity_card_true)
