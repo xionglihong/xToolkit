@@ -277,6 +277,13 @@ class TestXDateTimeGet(object):
     def test_get_compare(self, start, end, hows):
         assert xdatetime.get(start, end).how == hows
 
+    get_last = [(2020, 4, "2020-04-30"), (2020, 12, "2020-12-31"), (2020, 2, "2020-02-29"), (2021, 2, "2021-02-28")]
+
+    # 指定月最后一天
+    @pytest.mark.parametrize("year,month,result", get_last)
+    def test_get_last(self, year, month, result):
+        assert xdatetime.get(year, month).last == result
+
 
 # 时间模块shape方法
 class TestXDateTimeShape(object):

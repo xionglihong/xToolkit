@@ -19,6 +19,6 @@ from xToolkit.xdatetime.xdatetime.xdatetime import UTC8
 from xToolkit import xstring, xdatetime
 
 if __name__ == "__main__":
-    # a = xdatetime.get("2020-04-28 10:52:52", "1988-07-20 17:31:12").how
-    # print(a)
-    print(925271696-1588046221)
+    a = xdatetime.get(2018,9).last
+    print(a)
+

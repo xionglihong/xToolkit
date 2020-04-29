@@ -87,11 +87,9 @@ class XDateTime(XToolkit):
             elif isinstance(arg, date):
                 return self.limit.date_to_space(arg)
 
-        # 参数为二个
-        elif args_count == 2:
-            start, end = args[0], args[1]
-
-            return self.compare(start, end)
+        # 参数为二个或者二个以上
+        elif args_count >= 2:
+            return self.compare(*args, **kwargs)
 
     # shape 方法
     def shape(self, *args, **kwargs):
