@@ -62,7 +62,7 @@ class BasicFunction(object):
         return time.mktime(times.timetuple())
 
 
-# 基础功能
+# 时间基础类
 class Space(object):
     """
     实现时间模块的基础功能
@@ -278,3 +278,21 @@ class Compare(object):
         space = Space(year, month, 1).shift(months=1).shift(days=-1).format("%Y-%m-%d")
 
         return space
+
+    # 判断时间是否在指定时间区间中
+    @property
+    def middle(self):
+        """
+        判断时间是否在指定时间区间中
+        参数一：时间
+        参数二：列表 【开始时间，结束时间】
+        """
+        reference = parse(self.arg[0])  # 参考时间
+        start = parse(self.arg[1][0])  # 开始时间
+        end = parse(self.arg[1][1])  # 结束时间
+
+        # 判断方法为 参考时间应该大于开始小于结束时间
+        st = BasicFunction.datetime_to_timestamp(start) - BasicFunction.datetime_to_timestamp(reference)
+        en = BasicFunction.datetime_to_timestamp(reference) - BasicFunction.datetime_to_timestamp(end)
+
+        return True if st <= 0 and en <= 0 else False

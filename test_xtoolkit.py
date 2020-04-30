@@ -284,6 +284,18 @@ class TestXDateTimeGet(object):
     def test_get_last(self, year, month, result):
         assert xdatetime.get(year, month).last == result
 
+    ger_middle = [("2027-04-01", ["1988-04-14", "2020-05-14"], False),
+                  ("2027-04-01 12:15:4", ["1988-04-14", "2020-05-14"], False),
+                  ("1988-04-01 08:04:01", ["1988-04-01", "2020-05-14"], True),
+                  ("2020-04-15", ["2020-04-14", "2020-05-14 12:12:14"], True),
+                  ("1999-04-01", ["1988-04-14", "2020-05-14"], True),
+                  ("1989-04-01", ["1988-04-14 12:12:15", "2020-05-14"], True), ]
+
+    # 判断时间是否在指定的时间区间内
+    @pytest.mark.parametrize("reference,start,result", ger_middle)
+    def test_get_middle(self, reference, start, result):
+        assert xdatetime.get(reference, start).middle == result
+
 
 # 时间模块shape方法
 class TestXDateTimeShape(object):
