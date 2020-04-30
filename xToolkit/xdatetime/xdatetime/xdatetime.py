@@ -249,24 +249,32 @@ class Space(object):
         return self.datetime_to_space(dt)
 
 
-# 时间比较类
+# 时间高级类
 class Compare(object):
     """
-    进行二个时间的比较操作
+    时间高级类
     """
 
     def __init__(self, *args, **kwargs):
-        self.start = args[0]  # 开始时间
-        self.end = args[1]  # 结束时间
-
-    def __str__(self):
-        return "{}/{}".format(self.start, self.end)
+        self.arg = args
+        self.kwarg = kwargs
 
     # 比较二个时间的差值，返回秒值
     @property
     def how(self):
-        start = parse(self.start)
-        end = parse(self.end)
+        start = parse(self.arg[0])  # 开始时间
+        end = parse(self.arg[1])  # 结束时间
 
         how = BasicFunction.datetime_to_timestamp(start) - BasicFunction.datetime_to_timestamp(end)
         return int(how)
+
+    # 返回指定月份的最后一天
+    @property
+    def last(self):
+        year = self.arg[0]  # 年
+        month = self.arg[1]  # 月
+
+        # 获取要计算的时间，先得到下个月的第一天，再减去一天
+        space = Space(year, month, 1).shift(months=1).shift(days=-1).format("%Y-%m-%d")
+
+        return space
