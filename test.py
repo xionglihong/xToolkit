@@ -19,6 +19,4 @@ from xToolkit.xdatetime.xdatetime.xdatetime import UTC8
 from xToolkit import xstring, xdatetime
 
 if __name__ == "__main__":
-    a = xdatetime.get("2027-04-01", ["1988-04-14", "2020-05-14"]).middle
-
-    print(a)
+    print(xstring.dispose("gdhdg,dddfsd-ddsfdcds,sdasdsad*ss").split([",", "-", "*"]))

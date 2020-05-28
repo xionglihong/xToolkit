@@ -73,7 +73,7 @@ class TestXstringCheck(object):
     @pytest.mark.parametrize("phones,result", phone_data)
     def test_is_phone(self, phones, result):
         """
-        第一位为1，一共11位数字几个
+        第一位为1，一共11位数字
         """
         assert xstring.check(phones).is_phone == result
 
@@ -116,7 +116,6 @@ class TestXstringCheck(object):
         第一种：只允许英文字母、数字、下划线、英文句号、以及中划线组成
         第二种：名称允许汉字、字母、数字，域名只允许英文域名
         二种中任何一种即可
-        :return:
         """
         assert xstring.check(mailbox).is_mailbox == result
 
@@ -136,6 +135,15 @@ class TestXstringDispose(object):
     @pytest.mark.parametrize("identity,result", identity_card_true)
     def test_identity_card_get(self, identity, result):
         assert xstring.dispose(identity).get_identity_card(True) == result
+
+    # 多标识split
+    sign_string = [("abc,我的-他的,1245*ss", [",", "-", "*"], ['abc', '我的', '他的', '1245', 'ss']),
+                   ("abc,我的-他的,12_45*ss", [",", "-", "*", "_"], ['abc', '我的', '他的', "12", "45", 'ss']),
+                   ("a!bc,我的-他的,12_45*ss", [",", "-", "*", "_", "!"], ['a', 'bc', '我的', '他的', "12", "45", 'ss'])]
+
+    @pytest.mark.parametrize("future,sign,result", sign_string)
+    def test_split(self, future, sign, result):
+        assert xstring.dispose(future).split(sign) == result
 
 
 # 时间模块get方法

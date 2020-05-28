@@ -8,6 +8,9 @@
 # @IDE     : PyCharm
 # @REMARKS : 字符串的一些常用处理
 
+# 正则表达式
+import re
+
 # 字符串公共功能
 from ..xstring import BasicsFunction
 
@@ -32,3 +35,23 @@ class Dispose(object):
             False 输出完整身份证信息，包括市县，出生年月日，性别等信息，但速度比较慢，因为是进行的网络查询
         """
         return BasicsFunction(self.__mark).identity_card(args[0])
+
+    # 字符串分割
+    def split(self, *args):
+        """
+        重写系统的split，使其可以进行多个分割符号分割字符串
+        """
+        # 分割标识列表
+        sign = args[0]
+
+        # 分隔符集合必须为列表，并且不能为空
+        if not isinstance(sign, list):
+            return {"code": "0001", "msg": "分割标识数据类型必须为列表", "data": {"data": None}}
+
+        signs = ""
+        for key in sign:
+            signs += r"\{}".format(key)
+
+        signs = r"[{}]".format(signs)
+
+        return re.split(signs, self.__mark)
