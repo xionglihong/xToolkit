@@ -137,6 +137,15 @@ class TestXstringDispose(object):
     def test_identity_card_get(self, identity, result):
         assert xstring.dispose(identity).get_identity_card(True) == result
 
+    # 多标识split
+    sign_string = [("abc,我的-他的,1245*ss", [",", "-", "*"], ['abc', '我的', '他的', '1245', 'ss']),
+                   ("abc,我的-他的,12_45*ss", [",", "-", "*", "_"], ['abc', '我的', '他的', "12", "45", 'ss']),
+                   ("a!bc,我的-他的,12_45*ss", [",", "-", "*", "_", "!"], ['a', 'bc', '我的', '他的', "12", "45", 'ss'])]
+
+    @pytest.mark.parametrize("future,sign,result", sign_string)
+    def test_split(self, future, sign, result):
+        assert xstring.dispose(future).split(sign) == result
+
 
 # 时间模块get方法
 class TestXDateTimeGet(object):
