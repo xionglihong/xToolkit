@@ -14,4 +14,4 @@ from xToolkit.xdatetime import xdatetime
 from xToolkit.xstring import xstring
 
 # 版本号
-VERSION = "0.0.43"
+VERSION = "0.0.44"

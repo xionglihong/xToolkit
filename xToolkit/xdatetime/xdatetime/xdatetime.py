@@ -271,8 +271,8 @@ class Compare(object):
     # 返回指定月份的最后一天
     @property
     def last(self):
-        year = self.arg[0]  # 年
-        month = self.arg[1]  # 月
+        year = int(self.arg[0])  # 年
+        month = int(self.arg[1])  # 月
 
         # 获取要计算的时间，先得到下个月的第一天，再减去一天
         space = Space(year, month, 1).shift(months=1).shift(days=-1).format("%Y-%m-%d")

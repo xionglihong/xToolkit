@@ -19,4 +19,6 @@ from xToolkit.xdatetime.xdatetime.xdatetime import UTC8
 from xToolkit import xstring, xdatetime
 
 if __name__ == "__main__":
-    print(xstring.dispose("gdhdg,dddfsd-ddsfdcds,sdasdsad*ss").split([",", "-", "*"]))
+    a = xstring.dispose("abc,我的-他的,1245*ss").split([",", "-", "*"])
+
+    print(a)
