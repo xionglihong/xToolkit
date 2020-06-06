@@ -35,6 +35,24 @@ class JudgeType(object):
         except ValueError:
             return False
 
+    # 整形
+    @staticmethod
+    def is_int(value):
+        """
+        判断输入的是否为整数，包括数组整数和字符串整数
+        补充了系统的isdigit功能
+        """
+        try:
+            int(value)
+
+            # 排除掉浮点数
+            if "." in str(value):
+                return False
+
+            return True
+        except (TypeError, ValueError):
+            return False
+
     # 字符串类型
     @staticmethod
     def is_string(value):

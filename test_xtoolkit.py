@@ -59,6 +59,13 @@ class TestXstringCheck(object):
     def test_int_or_float(self, ints, result):
         assert xstring.check(ints).is_int_or_float == result
 
+    # 整形或浮点型
+    string_or_int = [(1212, True), (25251425, True), (253698.25, False), (0.455, False), ("english", False), ("我是一个兵", False), ("258741", True), (".325", False)]
+
+    @pytest.mark.parametrize("ints,result", string_or_int)
+    def test_is_int(self, ints, result):
+        assert xstring.check(ints).is_int == result
+
     # URL地址
     url_data = [("https://www.baidu.com", True), ("ftp://www.baidu.com", True), ("https://www.baidu", True), ("https://192.168.0.125", True),
                 ("abc", False), ("19583", False), ("你好", False), ("www.baidu.com", False)]

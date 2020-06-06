@@ -86,3 +86,4 @@ _更多实例请参照参考文档 https://www.showdoc.cc/xToolkit?page_id=21332
 
  2020年05月28日　v0.0.45
 - 修护获取指定月最后一天，输入整数型字符串报错的BUG
+- 新增判断整数，扩充了string.isdigit()

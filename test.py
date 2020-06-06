@@ -19,6 +19,8 @@ from xToolkit.xdatetime.xdatetime.xdatetime import UTC8
 from xToolkit import xstring, xdatetime
 
 if __name__ == "__main__":
-    a = xstring.dispose("abc,我的-他的,1245*ss").split([",", "-", "*"])
-
-    print(a)
+    print(xstring.check(654654).is_int)
+    print(xstring.check(None).is_int)
+    print(xstring.check("654654").is_int)
+    print(xstring.check("654.654").is_int)
+    print(xstring.check(253698.25).is_int)

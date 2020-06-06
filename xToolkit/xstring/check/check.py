@@ -101,6 +101,11 @@ class CheckData(object):
     def is_int_or_float(self):
         return self.judge.is_timestamp(self.__mark)
 
+    # 整形
+    @property
+    def is_int(self):
+        return self.judge.is_int(self.__mark)
+
     # 时间字符串
     @property
     def is_datetime_string(self):
