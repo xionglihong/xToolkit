@@ -55,3 +55,18 @@ class Dispose(object):
         signs = r"[{}]".format(signs)
 
         return re.split(signs, self.__mark)
+
+    # 字符串过滤
+    def strip(self, *args, **kwargs):
+        """
+        重写系统的strip，使其可以进行多字符串过滤
+        默认去掉全部空格，包括收尾和字符串中间的
+        """
+        # 过滤标识
+        method = args[0] if args else [" "]
+
+        returned = self.__mark
+        for key in method:
+            returned = returned.replace(key, "")
+
+        return returned

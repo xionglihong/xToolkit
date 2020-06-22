@@ -152,6 +152,13 @@ class TestXstringDispose(object):
     def test_split(self, future, sign, result):
         assert xstring.dispose(future).split(sign) == result
 
+    # 多标识strip
+    strip_string = [("鄂A 9 62  88", [" "], "鄂A96288"), ("鄂A9,6--2_8*8          ", [",", "-", "*", "_", " "], "鄂A96288"), ("鄂A^9^6@2@8         8", ["^", "@", " "], "鄂A96288")]
+
+    @pytest.mark.parametrize("future,sign,result", strip_string)
+    def test_strip(self, future, sign, result):
+        assert xstring.dispose(future).strip(sign) == result
+
 
 # 时间模块get方法
 class TestXDateTimeGet(object):
