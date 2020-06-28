@@ -75,7 +75,7 @@ class TestXstringCheck(object):
         assert xstring.check(urls).is_url == result
 
     # 手机号
-    phone_data = [("15172383635", True), ("15172383635k", False), ("1517238363*", False), ("05172383635", False), ("1517283635", False), ("95172383635", False)]
+    phone_data = [("15172383635", True), ("15172383635k", False), ("1517238363*", False), (15172383635, True), ("1517283635", False), ("95172383635", False)]
 
     @pytest.mark.parametrize("phones,result", phone_data)
     def test_is_phone(self, phones, result):

@@ -19,7 +19,6 @@ from xToolkit.xdatetime.xdatetime.xdatetime import UTC8
 from xToolkit import xstring, xdatetime
 
 if __name__ == "__main__":
-    a = "          鄂 A9 62 --8 8---__  "
-    b = "鄂 A9 62 8 8"
+    print(xstring.check(15172383635).is_phone)
 
-    print(xstring.dispose(a).strip())
+

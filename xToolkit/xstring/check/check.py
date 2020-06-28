@@ -35,7 +35,7 @@ class CheckData(object):
         # 需要验证的字符串
         string = self.__mark
 
-        if re.findall(expression, string):
+        if re.findall(expression, str(string)):
             return True
         else:
             return False
